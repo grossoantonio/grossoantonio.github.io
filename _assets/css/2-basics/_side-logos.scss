@@ -1,0 +1,40 @@
+.fixed-right{
+    display: none;
+
+}
+@include media-breakpoint-up(xl) {
+    .fixed-right{
+        display: block;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 220px;
+        height: 100%;
+        z-index: 2;
+        box-shadow: -3px 0 10px 0 #c2c2c2;
+        overflow: auto;
+        //padding-bottom: 200px;
+        .title-small{
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 1rem;
+            margin-top: 15px;
+        }
+        .logo-box{
+            margin: 15px;
+            height: 100px;
+            figure{
+                img{
+                    max-height: 50px;
+                    max-width: 120px;
+                }
+                figcaption{
+                    text-align: center;
+                    font-size: 0.75rem;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

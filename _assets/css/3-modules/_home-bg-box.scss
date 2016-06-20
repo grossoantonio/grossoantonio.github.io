@@ -1,0 +1,85 @@
+.container-fluid.container-home{
+    max-width: 1100px;
+}
+.home-bg-box{
+
+    // padding-top: 250px;
+    // background-image: url(http://placehold.it/1200x550);
+    // background-repeat: no-repeat;
+    // background-position: top center;
+    // background-size: 100% 250px;
+    // @include media-breakpoint-up(sm) {
+    //     padding-top: 500px;
+    //     background-size: 100% 500px;
+    // }
+    .col-sm-4::before{
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 40px 30px 0 30px;
+        border-color: #CCCCCC transparent transparent transparent;
+        position: absolute;
+        left: 50%;
+        margin-left: -20px;
+        @include media-breakpoint-up(xl) {
+            border-width: 40px 35px 0 35px;
+        }
+    }
+    @include media-breakpoint-up(sm) {
+        .col-sm-4:hover{
+            &::before{
+                content: '';
+            }
+        }
+    }
+    .slider-home{
+        max-width: 650px;
+        margin: 0 auto;
+        @include media-breakpoint-up(xl) {
+            max-width: 700px;
+        }
+        @include media-breakpoint-up(ul) {
+            max-width: 800px;
+        }
+    }
+
+    .presentation-box{
+        margin: 50px 10px;
+
+        @include media-breakpoint-up(xl) {
+            margin: 60px 10px;
+        }
+        @include media-breakpoint-up(ul) {
+            margin: 60px 25px;
+        }
+        h2{
+            font-size: 1.25rem;
+            line-height: 28px;
+            text-align: center;
+        }
+        @include media-breakpoint-up(ul) {
+            h2{
+                font-size: 1.5rem;
+                line-height: 28px;
+            }
+        }
+        a{
+            text-decoration: none;
+        }
+        .icon-rotate::before{
+            display: inline-block;
+            font-size: 22px;
+            margin-right: 6px;
+        }
+        .icon-macchinari::before{
+            content: '';
+            display: inline-block;
+            width: 64px;
+            height: 28px;
+            background-image: url(../img/icon-macchinario.svg);
+            background-repeat: no-repeat;
+            margin-right: 10px;
+        }
+    }
+
+}

@@ -1,0 +1,18 @@
+.slider-wrap{
+    margin-bottom: 60px;
+}
+
+.slider-margin25 .slick-slide{
+    margin: 25px;
+}
+.img-margin25{
+    margin: 15px;
+}
+@include media-breakpoint-up(sm) {
+    .img-margin25{
+        margin: 25px;
+    }
+}
+.slider-bkg-green img{
+    background-color: rgba(60,128,91,.3);
+}

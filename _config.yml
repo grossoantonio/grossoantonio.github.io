@@ -1,0 +1,3 @@
+name: Grosso Antonio
+markdown: redcarpet
+exclude: ["node_modules", "gulpfile.js", "package.json", "readme.md"]
