@@ -8,8 +8,12 @@ var gulp        = require('gulp'),
     uglify      = require('gulp-uglify'),
     rename      = require('gulp-rename'),
     cp          = require('child_process'),
-    jade        = require('gulp-jade');
+    imagemin    = require('gulp-imagemin'),
+    pngquant    = require('imagemin-pngquant'),
+    jade        = require('gulp-jade'),
+    del         = require('del');
 
+var jekyll   = process.platform === 'win32' ? 'jekyll.bat' : 'jekyll';
 var messages = {
     jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
@@ -20,8 +24,7 @@ var messages = {
  */
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
-    var pl = process.platform === "win32" ? "jekyll.bat" : "jekyll";
-    return cp.spawn(pl, ['build'], {stdio: 'inherit'})
+    return cp.spawn(jekyll, ['build'], {stdio: 'inherit'})
         .on('close', done);
 });
 
@@ -105,3 +108,69 @@ gulp.task('watch', function () {
  * compile the jekyll site, launch BrowserSync & watch files.
  */
 gulp.task('default', ['browser-sync', 'watch']);
+
+
+
+/*
+** Image Task
+*/
+
+
+gulp.task('imagejpg', function () {
+    gulp.src('_assets/img/**/*.jpg')
+    // .pipe(gulp.dest('assets/img'))
+    .pipe(imagemin({
+        progressive: true,
+        interlaced: true
+    }))
+    .pipe(gulp.dest('assets/img/'));
+});
+gulp.task('imagepng', function () {
+    gulp.src('_assets/img/**/*.png')
+    // .pipe(gulp.dest('assets/img/'))
+    .pipe(imagemin({
+        progressive: true,
+        interlaced: true
+    }))
+    .pipe(gulp.dest('assets/img/'));
+});
+gulp.task('imagesvg', function () {
+    gulp.src('_assets/img/**/*.svg')
+    // .pipe(gulp.dest('assets/img/'))
+    .pipe(imagemin({
+        progressive: true,
+        interlaced: true
+    }))
+    .pipe(gulp.dest('assets/img/'));
+});
+gulp.task('imagegif', function () {
+    gulp.src('_assets/img/**/*.gif')
+    // .pipe(gulp.dest('assets/img/'))
+    .pipe(imagemin({
+        progressive: true,
+        interlaced: true
+    }))
+    .pipe(gulp.dest('assets/img/'));
+});
+gulp.task('imagejpeg', function () {
+    gulp.src('_assets/img/**/*.jpeg')
+    // .pipe(gulp.dest('assets/img/'))
+    .pipe(imagemin({
+        progressive: true,
+        interlaced: true
+    }))
+    .pipe(gulp.dest('assets/img/'));
+});
+
+gulp.task('imagecopy', function () {
+    gulp.src('_assets/img/**/*')
+    .pipe(gulp.dest('assets/img'));
+});
+
+gulp.task('imagemin', ['imagecopy','imagejpg','imagepng','imagesvg','imagegif','imagejpeg']);
+
+
+
+gulp.task('clean', function() {
+    return del(['assets/css', 'assets/js', 'assets/img']);
+});
