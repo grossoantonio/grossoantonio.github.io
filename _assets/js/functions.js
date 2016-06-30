@@ -1,9 +1,11 @@
+$(".hamburger").click(function() {
+    $(".menu-collapsed").toggleClass("menu-expanded");
+});
+
 $( document ).ready(function() {
 
   // Get started!
-    $(".hamburger").click(function() {
-        $(".menu-collapsed").toggleClass("menu-expanded");
-    });
+
     if($('.slider-auto').length ){
         $('.slider-auto').slick({
             dots: true,
@@ -23,8 +25,7 @@ $( document ).ready(function() {
             autoplaySpeed: 3500,
             infinite: true,
             speed: 500,
-            fade: true,
-            cssEase: 'linear'
+            fade: true
         });
         $('.box-cilindri').hover(function(){
             $('.slider-home').slick('slickPause');

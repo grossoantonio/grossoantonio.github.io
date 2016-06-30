@@ -172,5 +172,5 @@ gulp.task('imagemin', ['imagecopy','imagejpg','imagepng','imagesvg','imagegif','
 
 
 gulp.task('clean', function() {
-    return del(['assets/css', 'assets/js', 'assets/img']);
+    return del(['assets/img']);
 });
