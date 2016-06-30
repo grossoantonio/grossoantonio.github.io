@@ -15,9 +15,9 @@ layout: default
         {% if page.img %}
         <div class="row">
             <div class="col-xs-12">
-                <div class="img-margin25">
+                <div class="slider-auto  slider-margin25 slider-bkg-green">
                     {% for img in page.img %}
-                        <img class="img-fluid" src="assets/img/photo/cilindri-1.jpg" alt="cilindro inciso" />
+                        <img class="img-fluid" src="assets/img/photo/{{ img }}" alt="{{page.img | replace: '-', ' ' | remove: ".jpg" }}" />
                     {% endfor %}
                 </div>
             </div>

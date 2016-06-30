@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="container">
+    {% for section in page.sections %}
+    <section class="white-bkg">
+        <div class="row ">
+
+            <div class="{% if section.specs %} col-sm-7 {% else %} col-xs-12 {% endif %}">
+                <div class="text-container">
+                    <h1 class="title-product">{{ section.title }}</h1>
+                    <p>
+                        {{ section.description}}
+                    </p>
+                </div>
+            </div>
+
+            {% if section.specs %}
+                <div class="col-sm-5">
+                    <div class="specs-wrap specs-wrap-top">
+                        {% for spec in section.specs %}
+                            <div class="specs-head">
+                                {{spec.title}}
+                            </div>
+                            {% for item in spec.list %}
+                            <div class="spec">
+                                {{item}}
+                            </div>
+                            {% endfor %}
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="slider-auto  slider-margin25 slider-bkg-green">
+                    {% for img in section.img %}
+                        <img class="img-fluid" src="assets/img/photo/{{ img }}" alt="{{img | replace: '-', ' ' | remove: ".jpg" | remove: ".png" }}" />
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+    {% endfor %}
+</div>
