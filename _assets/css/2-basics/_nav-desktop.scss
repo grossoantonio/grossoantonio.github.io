@@ -24,7 +24,7 @@
     .menu-fixed-left .logo-bar img{
         display: block;
         position: relative;
-        top: 8%;
+        top: 75px;
         margin: 0 auto;
         width: 20px;
     }
@@ -38,7 +38,7 @@
     }
     .menu-fixed-left nav {
         position: fixed;
-        top: 10%;
+        top: 25px;
         left: 60px;
     }
     .menu-fixed-left nav ul{
@@ -58,7 +58,7 @@
         border-bottom: 2px solid $brand-green;
         border-top:  2px solid $brand-green;
     }
-    .menu-fixed-left nav a:hover {
+    .menu-fixed-left nav li a:hover {
         transition: all .15s;
         border-bottom: 3px solid $brand-green;
         border-top:  3px solid $brand-green;
