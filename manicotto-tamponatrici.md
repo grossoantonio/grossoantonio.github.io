@@ -1,6 +1,6 @@
 ---
 layout: product-sections
-title: Gomme
+title: Manicotto per tamponatrici
 sections:
 
     - title: Manicotto per Tamponatrici

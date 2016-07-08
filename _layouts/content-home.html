@@ -1,0 +1,31 @@
+---
+layout: home
+---
+
+<div class="container-fluid container-home">
+    <div class="row text-justify home-bg-box">
+        <div class="slider-home">
+            {% for img in page.img %}
+                <img class="img-fluid" src="assets/img/photo/{{ img }}" alt="{{page.img | replace: '-', ' ' | remove: ".jpg" }}" />
+            {% endfor %}
+        </div>
+        <div class="col-sm-4 col-1">
+            <div class="presentation-box box-cilindri">
+                <a href="cilindri-fotoincisi.html"><h2 class="icon-battery-empty icon-rotate">{{page.title1}}</h2></a>
+                <p>{{page.p1}}</p>
+            </div>
+        </div>
+        <div class="col-sm-4 col-2">
+            <div class="presentation-box box-macchinari">
+                <a href="nuovo.html"><h2 class="icon-macchinari">{{page.title2}}</h2></a>
+                <p>{{page.p2}}</p>
+            </div>
+        </div>
+        <div class="col-sm-4 col-3">
+            <div class="presentation-box box-ricambio">
+                <a href="pezzi-di-ricambio.html"><h2 class="icon-wrench ">{{page.title3}}</h2></a>
+                <p>{{page.p3}}</p>
+            </div>
+        </div>
+    </div>
+</div>

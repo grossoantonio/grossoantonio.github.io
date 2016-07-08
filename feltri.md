@@ -1,6 +1,6 @@
 ---
 layout: product-sections
-title: Gomme
+title: Feltri
 sections:
 
     - title: Feltri per stampare
