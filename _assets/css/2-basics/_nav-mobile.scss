@@ -8,7 +8,7 @@
 nav a {
     text-decoration: none;
 }
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
     .menu-collapsed {
         -webkit-transition: all .25s;
         transition: all .25s;
@@ -20,7 +20,7 @@ nav a {
         z-index: 999;
         //cursor: pointer;
     }
-    .menu-collapsed ul {
+    .menu-collapsed ul,  .menu-collapsed .lang-toggle{
         -webkit-transition: all .05s;
         transition: all .05s;
         position: fixed;
@@ -72,12 +72,11 @@ nav a {
         top: 0;
         left: 0;
         background: rgba(255, 255, 255, 0.95);
-        & nav{
-            overflow-y: auto;
-        }
+        overflow-x: auto;
+        
     }
 
-    .menu-expanded ul {
+    .menu-expanded ul, .menu-expanded .lang-toggle {
         margin: 0 auto;
         max-width: 75%;
         -webkit-transition: all .05s;
@@ -88,7 +87,13 @@ nav a {
         padding: 0;
         z-index: 2;
     }
+    .menu-expanded .lang-toggle{
+        position: absolute;
+        top: 15px;
+        left: 50%;
+        margin-left: -65px;
 
+    }
     .menu-expanded li {
         list-style: none;
         border-bottom: 1px solid $brand-green;
