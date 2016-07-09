@@ -124,7 +124,7 @@ function initMap() {
 
     // Create a marker and set its position.
     var pin = {
-        url: "assets/img/pin.svg",
+        url: "/assets/img/pin.svg",
         anchor: new google.maps.Point(25,50),
         scaledSize: new google.maps.Size(30,37)
     };

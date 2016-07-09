@@ -53,7 +53,7 @@ gulp.task('browser-sync', ['sass', 'js', 'jekyll-build'], function() {
  * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
  */
 gulp.task('sass', function () {
-    return gulp.src('_assets/css/main.sass')
+    return gulp.src('_/assets/css/main.sass')
         .pipe(sass({
             includePaths: ['css'],
             onError: browserSync.notify
@@ -63,7 +63,7 @@ gulp.task('sass', function () {
 		.pipe(minifycss())
         .pipe(gulp.dest('_site/assets/css'))
         .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('assets/css'));
+        .pipe(gulp.dest('/assets/css'));
 });
 
 
@@ -81,12 +81,12 @@ gulp.task('jade', function() {
 ** JS Task
 */
 gulp.task('js', function() {
-  return gulp.src('_assets/js/*.js')
+  return gulp.src('_/assets/js/*.js')
     .pipe(jshint())
     .pipe(jshint.reporter('default'))
     .pipe(rename({suffix: '.min'}))
     .pipe(uglify())
-    .pipe(gulp.dest('assets/js'))
+    .pipe(gulp.dest('/assets/js'))
     .pipe(gulp.dest('_site/assets/js'));
 });
 
@@ -96,8 +96,8 @@ gulp.task('js', function() {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch('_assets/js/*.js', ['js']).on("change", browserSync.reload);
-    gulp.watch('_assets/css/**', ['sass']);
+    gulp.watch('_/assets/js/*.js', ['js']).on("change", browserSync.reload);
+    gulp.watch('_/assets/css/**', ['sass']);
     gulp.watch(['*.md','*.html', '_layouts/*.html', '_posts/*', '_includes/*'], ['jekyll-rebuild']);
     gulp.watch('_jadefiles/*.jade', ['jade']);
 });
@@ -117,54 +117,54 @@ gulp.task('default', ['browser-sync', 'watch']);
 
 
 gulp.task('imagejpg', function () {
-    gulp.src('_assets/img/**/*.jpg')
-    // .pipe(gulp.dest('assets/img'))
+    gulp.src('_/assets/img/**/*.jpg')
+    // .pipe(gulp.dest('/assets/img'))
     .pipe(imagemin({
         progressive: true,
         interlaced: true
     }))
-    .pipe(gulp.dest('assets/img/'));
+    .pipe(gulp.dest('/assets/img/'));
 });
 gulp.task('imagepng', function () {
-    gulp.src('_assets/img/**/*.png')
-    // .pipe(gulp.dest('assets/img/'))
+    gulp.src('_/assets/img/**/*.png')
+    // .pipe(gulp.dest('/assets/img/'))
     .pipe(imagemin({
         progressive: true,
         interlaced: true
     }))
-    .pipe(gulp.dest('assets/img/'));
+    .pipe(gulp.dest('/assets/img/'));
 });
 gulp.task('imagesvg', function () {
-    gulp.src('_assets/img/**/*.svg')
-    // .pipe(gulp.dest('assets/img/'))
+    gulp.src('_/assets/img/**/*.svg')
+    // .pipe(gulp.dest('/assets/img/'))
     .pipe(imagemin({
         progressive: true,
         interlaced: true
     }))
-    .pipe(gulp.dest('assets/img/'));
+    .pipe(gulp.dest('/assets/img/'));
 });
 gulp.task('imagegif', function () {
-    gulp.src('_assets/img/**/*.gif')
-    // .pipe(gulp.dest('assets/img/'))
+    gulp.src('_/assets/img/**/*.gif')
+    // .pipe(gulp.dest('/assets/img/'))
     .pipe(imagemin({
         progressive: true,
         interlaced: true
     }))
-    .pipe(gulp.dest('assets/img/'));
+    .pipe(gulp.dest('/assets/img/'));
 });
 gulp.task('imagejpeg', function () {
-    gulp.src('_assets/img/**/*.jpeg')
-    // .pipe(gulp.dest('assets/img/'))
+    gulp.src('_/assets/img/**/*.jpeg')
+    // .pipe(gulp.dest('/assets/img/'))
     .pipe(imagemin({
         progressive: true,
         interlaced: true
     }))
-    .pipe(gulp.dest('assets/img/'));
+    .pipe(gulp.dest('/assets/img/'));
 });
 
 gulp.task('imagecopy', function () {
-    gulp.src('_assets/img/**/*')
-    .pipe(gulp.dest('assets/img'));
+    gulp.src('_/assets/img/**/*')
+    .pipe(gulp.dest('/assets/img'));
 });
 
 gulp.task('imagemin', ['imagecopy','imagejpg','imagepng','imagesvg','imagegif','imagejpeg']);
@@ -172,5 +172,5 @@ gulp.task('imagemin', ['imagecopy','imagejpg','imagepng','imagesvg','imagegif','
 
 
 gulp.task('clean', function() {
-    return del(['assets/img']);
+    return del(['/assets/img']);
 });

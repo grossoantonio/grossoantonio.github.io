@@ -1,20 +1,36 @@
 <nav>
     <div class="lang-toggle">
-        <a class="lang-link " href="#"><img src="assets\img\Flag_of_Italy.svg" alt="Italian" />IT</a>
-        <a class="lang-link not-active-lang" href="#"><img src="assets\img\Flag_of_the_United_Kingdom.svg" alt="English" />EN</a>
+        <a class="lang-link {% if page.url contains "/en/" %} not-active-lang {% endif %}" href="/"><img src="/assets/img/Flag_of_Italy.svg" alt="Italian" />IT</a>
+        <a class="lang-link {% unless page.url contains "/en/" %} not-active-lang {% endunless %}" href="/en/"><img src="/assets/img/Flag_of_the_United_Kingdom.svg" alt="English" />EN</a>
     </div>
     <ul>
-        {% for link in site.nav %}
-            <li>
-                <a href="{{ site.url }}{{ link.url }}" class="{% if page.url contains link.url %} active-nav {% endif %}">{{ link.title }}</a>
-            {% if link.sub-nav %}
-                <ul class="sub-nav">
-                    {% for link-sub in link.sub-nav %}
-                        <li><a href="{{ site.url }}{{ link-sub.url }}" class="{% if page.url contains link-sub.url %} active-nav {% endif %}">{{ link-sub.title }}</a></li>
-                    {% endfor %}
-                </ul>
-            {% endif %}
-            </li>
-        {% endfor %}
+        {% unless page.url contains "/en/" %}
+            {% for link in site.nav %}
+                <li>
+                    <a href="{{ site.url }}{{ link.url }}" class="{% if page.url contains link.url %} active-nav {% endif %}">{{ link.title }}</a>
+                {% if link.sub-nav %}
+                    <ul class="sub-nav">
+                        {% for link-sub in link.sub-nav %}
+                            <li><a href="{{ site.url }}{{ link-sub.url }}" class="{% if page.url contains link-sub.url %} active-nav {% endif %}">{{ link-sub.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+                </li>
+            {% endfor %}
+        {% endunless %}
+        {% if page.url contains "/en/" %}
+            {% for link in site.nav_en %}
+                <li>
+                    <a href="{{ site.url }}{{ link.url }}" class="{% if page.url contains link.url %} active-nav {% endif %}">{{ link.title }}</a>
+                {% if link.sub-nav %}
+                    <ul class="sub-nav">
+                        {% for link-sub in link.sub-nav %}
+                            <li><a href="{{ site.url }}{{ link-sub.url }}" class="{% if page.url contains link-sub.url %} active-nav {% endif %}">{{ link-sub.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+                </li>
+            {% endfor %}
+        {% endif %}
     </ul>
 </nav>

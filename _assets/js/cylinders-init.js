@@ -12,7 +12,7 @@ $(document).ready(function(){
                 var code = v.replace(" ", "-");
                 if(i===0){
                     $('.controls-wrap .select-cyl ul').append('<li class="selected" data-cod="'+ code +'"><span>' + v +'</span></li>');
-                    $('.elements-wrap .element-img').append('<div class="img-cilindro" style="background-image:url(assets/img/cilindri/'+code+'.jpg)"></div>');
+                    $('.elements-wrap .element-img').append('<div class="img-cilindro" style="background-image:url(/assets/img/cilindri/'+code+'.jpg)"></div>');
                 }else{
                     $('.controls-wrap .select-cyl ul').append('<li data-cod="'+ code +'"><span>' + v +'</span></li>');
                 }
@@ -37,7 +37,7 @@ $(document).ready(function(){
                     if(i===0){
                         $('<li class="selected" data-cod="'+ code +'" style="display:none;"><span>' + v +'</span></li>').appendTo('.controls-wrap .select-cyl ul').fadeIn(300*i+1);
                         $('.elements-wrap .element-img .img-cilindro').fadeOut(500, function() { $(this).remove(); });
-                        $('.elements-wrap .element-img').append('<div class="img-cilindro" style="background-image:url(assets/img/cilindri/'+code+'.jpg); display:none;"></div>');
+                        $('.elements-wrap .element-img').append('<div class="img-cilindro" style="background-image:url(/assets/img/cilindri/'+code+'.jpg); display:none;"></div>');
                         $('.elements-wrap .element-img .img-cilindro').fadeIn(1000);
                     }else{
                         $('<li data-cod="'+ code +'" style="display:none;"><span>' + v +'</span></li>').appendTo('.controls-wrap .select-cyl ul').fadeIn(300*i+1);
@@ -54,7 +54,7 @@ $(document).ready(function(){
             var data = $(this).data("cod");
 
             $('.elements-wrap .element-img .img-cilindro').fadeOut(500, function() { $(this).remove(); });
-            $('.elements-wrap .element-img').append('<div class="img-cilindro" style="background-image:url(assets/img/cilindri/'+data+'.jpg); display:none;"></div>');
+            $('.elements-wrap .element-img').append('<div class="img-cilindro" style="background-image:url(/assets/img/cilindri/'+data+'.jpg); display:none;"></div>');
             $('.elements-wrap .element-img .img-cilindro').fadeIn(1000);
 
         });
@@ -69,7 +69,7 @@ $(document).ready(function(){
         var data = $(this).data("cod");
 
         $('.elements-wrap .element-img .img-cilindro').fadeOut(500, function() { $(this).remove(); });
-        $('.elements-wrap .element-img').append('<div class="img-cilindro" style="background-image:url(assets/img/cilindri/'+data+'.jpg); display:none;"></div>');
+        $('.elements-wrap .element-img').append('<div class="img-cilindro" style="background-image:url(/assets/img/cilindri/'+data+'.jpg); display:none;"></div>');
         $('.elements-wrap .element-img .img-cilindro').fadeIn(1000);
 
     });
