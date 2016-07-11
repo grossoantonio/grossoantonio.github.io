@@ -5,10 +5,8 @@ sections:
 
     - title: Feltri per stampare
       description: |
-          La nostra azienda è in grado di fornire feltri per la lavorazione del pellame per l’industria conciaria.
-
-          I feltri vengono utilizzati per lo stampaggio delle pelli; sono lastre in lana al 100% e si possono avere in diverse grandezze, densità e spessore a seconda delle esigenze del Cliente.
-
+          La nostra azienda è in grado di fornire feltri per la lavorazione del pellame per l’industria conciaria. <br>
+          I feltri vengono utilizzati per lo stampaggio delle pelli; sono lastre in lana al 100% e si possono avere in diverse grandezze, densità e spessore a seconda delle esigenze del Cliente. <br>
           Nel nostro magazzino abbiamo sempre la disponibilità immediata di lastre di misure standard, questo per poter offrire e garantire ai nostri Clienti un servizio efficiente nelle consegne.
 
       img:

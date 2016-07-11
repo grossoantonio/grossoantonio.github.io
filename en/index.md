@@ -5,16 +5,14 @@ img:
     - home-cilindri-1.jpg
     - home-macchinari-1.jpg
     - azienda-3.jpg
-title1: Cilindri Fotoincisi
+title1: Photoengraved Rollers
 p1: |
-    Impreziosire la pelle con ogni differente genere di design con personalizzazioni private e possibilità di ESCLUSIVA.
-title2: Macchinari
+    Increase the value of your leather with every different kind of design and possibility of customization and EXCLUSIVITY.
+title2: Machines
 p2: |
-    Attraverso il rapporto collaborativo con i nostri costruttori siamo in continua evoluzione
-    e sempre alla ricerca di nuove tecnologie per soddisfare ogni esigenza e richiesta del Cliente,
-    con macchinari di ultima generazione che garantiscono e facilitano un risultato migliore sul pellame.
-title3: Pezzi di ricambio
+    Through the collaborative relationship with our manufacturers we are constantly evolving and always looking for new technologies to meet every need and request of the customer, thanks to the latest machinery we can ensure an easier and better result on the leather.
+title3: Spare Parts
 p3: |
-    Grazie alla nostra esperienza possiamo garantire un servizio di supporto tecnico efficiente,
-    potendo fornire pezzi di ricambio e accessoristica varia di ogni genere.
+    With our experience we can guarantee an efficient technical support service, being able to supply spare parts and accessories of all kinds.
+    
 ---

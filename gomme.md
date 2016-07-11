@@ -9,8 +9,9 @@ sections:
 
     - title: CARBO ROSSA
       description: |
-          Gomma in rotoli per effettuare tappeti per palissone
-          Gomma in rotoli per effettuare lastre utilizzate per lo stampaggio delle pelli in modo da poter proteggere il feltro e per creare effetti di stampa particolari.
+        Gomma in rotoli per effettuare tappeti per palissone. <br>
+
+        Gomma in rotoli per effettuare lastre utilizzate per lo stampaggio delle pelli in modo da poter proteggere il feltro e per creare effetti di stampa particolari.
       specs:
             - title: Spessori disponibili
               list:

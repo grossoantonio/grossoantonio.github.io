@@ -1,23 +1,23 @@
 ---
 layout: product-sections
-title: Feltri
+title: Felts
 sections:
 
-    - title: Feltri per stampare
+    - title: Felts for printing
       description: |
-          La nostra azienda è in grado di fornire feltri per la lavorazione del pellame per l’industria conciaria.
+          Our company can provide felts for the tanning manufacturing. <br>
 
-          I feltri vengono utilizzati per lo stampaggio delle pelli; sono lastre in lana al 100% e si possono avere in diverse grandezze, densità e spessore a seconda delle esigenze del Cliente.
+          The felts are used for the leather pressing; plates are made from 100% wool and are available in different sizes, density and thickness according to the customer requirements. <br>
 
-          Nel nostro magazzino abbiamo sempre la disponibilità immediata di lastre di misure standard, questo per poter offrire e garantire ai nostri Clienti un servizio efficiente nelle consegne.
+          In our warehouse we always have availability of standard sized felts, in order to provide and guarantee our customers an efficient service delivery.
 
       img:
           - feltro-bianco-1.jpg
           - feltro-bianco-2.jpg
 
-    - title: Feltro Silon
+    - title: Silon Felt
       description: |
-          Utilizzato per stampare con tavole e feltri non uniformi
+          Used to print with uneven boards and felts
       img:
           - feltro-silon-1.jpg
           - feltro-silon-5.jpg

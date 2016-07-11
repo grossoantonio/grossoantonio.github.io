@@ -70,6 +70,7 @@
             display: inline-block;
             font-size: 22px;
             margin-right: 6px;
+            vertical-align: sub;
         }
         .icon-macchinari::before{
             content: '';
@@ -79,7 +80,13 @@
             background-image: url(../img/icon-macchinario.svg);
             background-repeat: no-repeat;
             margin-right: 10px;
+            vertical-align: sub;
         }
+        .icon-wrench::before{
+            vertical-align: sub;
+        }
+
+
     }
 
 }

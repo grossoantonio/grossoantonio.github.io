@@ -18,7 +18,7 @@ specs:
     s-list:
         - MM610, MM330, MM255
         - MM610, MM330, MM255
-logo: Escusivista con deposito
+logo: Esclusivista con deposito
 ---
 
 Siamo i distributori del Centro Italia della Carta Smeriglio per conceria marca AWUKO. Forniamo carta originale, prodotta e confezionata, per il settore conciario, dalla ditta Wandmacher GmbH & Co. (Germany), proprietaria del marchio Awuko.
