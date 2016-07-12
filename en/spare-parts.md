@@ -1,7 +1,7 @@
 ---
 layout: product
-title: Pezzi di ricambio
+title: Spare parts
 img: rullo-agata-1.jpg
 ---
 
-Forniamo pezzi di ricambio, parti meccaniche, elettriche ed elettroniche per qualsiasi tipo di macchinario per conceria o inerente al settore della lavorazione della pelle, garantendo qualità, idoneità ed un servizio di consegna efficiente e veloce.
+We provide spare parts, mechanical, electrical and electronic parts for any type of machinery for tanning or inherent to the leather processing industry, ensuring quality, suitability and an efficient and fast delivery service.

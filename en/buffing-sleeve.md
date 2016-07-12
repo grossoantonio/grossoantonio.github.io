@@ -1,16 +1,16 @@
 ---
 layout: product-sections
-title: Manicotto per tamponatrici
+title: Buffing Sleeve
 sections:
 
-    - title: Manicotto per Tamponatrici
+    - title: Buffing Sleeve
       description: |
-          Tappeto per macchina tamponatrice in silicone: antisolvente e antiolio, idoneo anche alla lavorazione di pellami con spessori non uniformi.
+          Silicon carpet for buffing machine: anti-solvent and oil-resistant, suitable for processing uneven leather with non-uniform thicknesses.
       specs:
-            - title: Idoneo per Tamponatrici
+            - title: Suitable for buffing machines
               list:
                 - Gemata, Rollmac, Incoma, 3P
-            - title: Macchine con luce lavoro
+            - title: Machines width
               list:
                   - MM1800, MM2200
       img:

@@ -1,6 +1,6 @@
 ---
 layout: content-azienda-full
-title: L'Azienda
+title: The Company
 img:
     - azienda-2.jpg
     - azienda-3.jpg

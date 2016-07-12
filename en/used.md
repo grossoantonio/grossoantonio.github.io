@@ -1,27 +1,24 @@
 ---
 layout: content-usato
-title: Usato
-h1: Macchinari per conceria usati
+title: Our Used
+h1: Used tanning machinery
 magazzino:
-    - title: Tamponatrice Gemata
+    - title: Buffing machine Gemata
       description: |
-          Modello: EASY COAT
-          Luce lavoro: MM 1800
+          Model: EASY COAT
+          Working width: MM 1800
       img:
           - usato-tamponatrice-1.jpg
-    - title: Stiratrice Mostardini
+    - title: Mostardini Press
       description: |
-          Luce lavoro: MM 2600
+          Working width: MM 2600
       img:
           - stiratrice-mostardini-1.jpg
           - stiratrice-mostardini-2.jpg
 ---
 
-Su richiesta del Cliente siamo in grado di offrire macchinari usati per il settore conciario, di ogni marca e
-modello, idonei alla lavorazione delle pelli nelle varie fasi del processo produttivo.
+On customer's request we are able to offer the used tanning machines of every make and model, suitable for the leather processing in the various stages of the production process.
 
-Possiamo fornire il macchinario usato, visto e piaciuto nelle condizioni in cui si trova, oppure
-completamente revisionato con sostituzione delle parti meccaniche, elettriche e di normale usura;
-riverniciato a nuovo.
+We can supply the machine used as is, or completely overhauled with replacement of mechanical, electrical and normal wear and tear parts; repainted as new.
 
-Di seguito i macchinari usati, attualmente disponibili a magazzino.
+Below the used machinery currently in stock.

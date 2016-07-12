@@ -1,7 +1,7 @@
 ---
 layout: content-nuovo
-title: Nuovo
-h1: Macchinari per conceria nuovi
+title: New Machines
+h1: Brand new tanning machinery
 ---
 
-Siamo in collaborazione con:
+We are in partnership with:

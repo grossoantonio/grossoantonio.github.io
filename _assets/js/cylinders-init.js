@@ -1,7 +1,19 @@
 $(document).ready(function(){
+
     // INIT select tools and image
     var catName = cat.cat_it;
     var codName = cat.cod_it;
+
+    //check language
+    var langEN = false;
+    if (window.location.href.indexOf("/en/") > -1) {
+        langEN = true;
+    }
+    if(langEN){
+        catName = cat.cat_en;
+        codName = cat.cod_en;
+    }
+
     $('.controls-wrap .select-cat h3').html(catName);
     $('.controls-wrap .select-cyl h3').html(codName);
 

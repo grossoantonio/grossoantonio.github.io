@@ -1,6 +1,6 @@
 ---
 layout: product-slider
-title: Tappeto per Dinavac
+title: Dinavac carpet
 img:
     - dinavac-1.jpg
     - dinavac-3.jpg
@@ -9,4 +9,4 @@ img:
     - dinavac-5.jpg
 ---
 
-Tappeto per Dinavac (descrizione)
+Dinavac carpet (descrizione)

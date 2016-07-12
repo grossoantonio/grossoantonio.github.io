@@ -1,6 +1,6 @@
 ---
 layout: content-map
-title: Contatti
-contacts: Contatti
-address: Indirizzo
+title: Contacts
+contacts: Contacts
+address: Address
 ---
