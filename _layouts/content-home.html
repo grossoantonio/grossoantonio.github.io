@@ -6,7 +6,7 @@ layout: home
     <div class="row text-justify home-bg-box">
         <div class="slider-home">
             {% for img in page.img %}
-                <img class="img-fluid" src="/assets/img/photo/{{ img }}" alt="{{page.img | replace: '-', ' ' | remove: ".jpg" }}" />
+                <img class="img-fluid" src="/assets/img/photo/{{ img }}" alt="{{ img | replace: '-', ' ' | remove: '.jpg' }}" />
             {% endfor %}
         </div>
         <div class="col-sm-4 col-1">
