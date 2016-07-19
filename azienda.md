@@ -4,6 +4,9 @@ title: L'Azienda
 img:
     - azienda-2.jpg
     - azienda-3.jpg
+    - photo-1.jpg
+    - photo-2.jpg
+    - photo-3.jpg
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan cursus purus vel elementum.

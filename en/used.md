@@ -1,7 +1,7 @@
 ---
 layout: content-usato
-title: Our Used
-h1: Used tanning machinery
+title: Second Hand machines
+h1: Second hand tanning machinery
 magazzino:
     - title: Buffing machine Gemata
       description: |
@@ -17,7 +17,7 @@ magazzino:
           - stiratrice-mostardini-2.jpg
 ---
 
-On customer's request we are able to offer the used tanning machines of every make and model, suitable for the leather processing in the various stages of the production process.
+On customer's request we can offer used tanning machines of every make and model, suitable for the leather processing in the various stages of the production process.
 
 We can supply the machine used as is, or completely overhauled with replacement of mechanical, electrical and normal wear and tear parts; repainted as new.
 

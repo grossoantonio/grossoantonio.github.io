@@ -22,5 +22,6 @@ sections:
           - feltro-silon-1.jpg
           - feltro-silon-5.jpg
           - feltro-silon-3.jpg
+          - feltro-silon-7.jpg
 
 ---

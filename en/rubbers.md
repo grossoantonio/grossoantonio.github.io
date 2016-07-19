@@ -20,8 +20,10 @@ sections:
               list:
                   - MM1600, MM2000
       img:
-          - gomma-rossa-1.jpg
+          - gomma-rossa-1.png
           - gomma-rossa-2.jpg
+          - gomma-rossa-3.jpg
+          - gomma-rossa-4.jpg
 
     - title: CARBO GIASA
       description: |
@@ -35,8 +37,8 @@ sections:
             list:
                 - MM1550, MM1800
       img:
-        - gomma-nera-1.jpg
-        - gomma-nera-2.jpg
+        - gomma-nera-5.png
+        - gomma-nera-6.jpg
 
     - title: Heat-resistant Para Rubber
       description: |
@@ -48,8 +50,8 @@ sections:
             list:
                 - MM1550
       img:
-        - gomma-nera-3.jpg
-        - gomma-nera-4.jpg
+        - gomma-gialla-1.png
+        - gomma-gialla-2.jpg
 
     - title: MOBIL 2 ROSSA
       description: |

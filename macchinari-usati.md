@@ -1,6 +1,6 @@
 ---
 layout: content-usato
-title: Usato
+title: Macchinari Usati
 h1: Macchinari per conceria usati
 magazzino:
     - title: Tamponatrice Gemata

@@ -3,6 +3,7 @@ layout: product-slider
 title: Lifting Platform
 img:
     - pedana-1.jpg
+    - pedana-ruota-1.jpg
 ---
 
 We have a wide range of lifting platforms that represent an optimal solution in most lifting requirements of the production process.

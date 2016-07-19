@@ -167,7 +167,7 @@ gulp.task('imagecopy', function () {
     .pipe(gulp.dest('assets/img'));
 });
 
-gulp.task('imagemin', ['imagecopy','imagejpg','imagepng','imagesvg','imagegif','imagejpeg']);
+gulp.task('imagemin', ['imagejpg','imagepng','imagesvg','imagegif','imagejpeg']);
 
 
 

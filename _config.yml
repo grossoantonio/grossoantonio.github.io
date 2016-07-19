@@ -28,24 +28,24 @@ nav:
             url: /pedane-di-sollevamento.html
     - title: Pezzi di ricambio
       url: /pezzi-di-ricambio.html
-    - title: Nuovo
-      url: /nuovo.html
-    - title: Usato
-      url: /usato.html
+    - title: Macchinari Nuovi
+      url: /macchinari-nuovi.html
+    - title: Macchinari Usati
+      url: /macchinari-usati.html
     - title: Contatti
       url: /contatti.html
 
 nav_en:
     - title: "Home"
       url: /en/index.html
-    - title: "Company"
+    - title: "The Company"
       url: /en/company.html
     - title: "Photoengraved Rollers"
-      url: /en/photo-englraved-rollers.html
-    - title: "Cylinders Catalog"
-      url: /en/cylinders-catalog.html
-    - title: "Sandpaper"
-      url: /en/sandpaper.html
+      url: /en/photoengraved-rollers.html
+    - title: "Rollers Catalog"
+      url: /en/rollers-catalog.html
+    - title: "Sanding Rolls"
+      url: /en/sanding-rolls.html
     - title: "Products"
       url: javascript:void(0)
       sub-nav:
@@ -53,17 +53,17 @@ nav_en:
             url: /en/rubbers.html
           - title: Felts
             url: /en/felts.html
-          - title: Buffing Sleeve
-            url: /en/buffing-sleeve.html
+          - title: Buffing Carpet
+            url: /en/buffing-carpet.html
           - title: Dinavac Carpet
             url: /en/dinavac-carpet.html
-          - title: Lifting Platforms
-            url: /en/lifting-platforms.html
+          - title: Lift Table
+            url: /en/lift-table.html
     - title: Spare Parts
       url: /en/spare-parts.html
-    - title: New
+    - title: New Machinery
       url: /en/new.html
-    - title: Used
+    - title: Second Hand Machines
       url: /en/used.html
     - title: Contacts
       url: /en/contacts.html

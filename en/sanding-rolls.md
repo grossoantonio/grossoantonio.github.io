@@ -1,6 +1,6 @@
 ---
 layout: product-2col
-title: Sandpaper
+title: Sanding Rolls
 img:
     - carta-2.jpg
     - carta-1.jpg

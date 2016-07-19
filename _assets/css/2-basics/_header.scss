@@ -18,11 +18,16 @@
         color: $brand-brown;
         border-top: 2px solid $brand-green;
         border-bottom: 2px solid $brand-green;
+
+    }
+    @include media-breakpoint-up(sm) {
+        .header-sub{
+            font-size: 1rem;
+        }
     }
     @include media-breakpoint-up(md) {
         margin: 10px auto 40px;
         .header-sub{
-            font-size: 1rem;
             border-top: 3px solid $brand-green;
             border-bottom: 3px solid $brand-green;
         }
@@ -33,11 +38,8 @@
             max-height: 30px;
             width: auto;
         }
-    }
-    @include media-breakpoint-down(md) {
         .header-sub{
             font-size: 2.8vw;
-
         }
     }
     @include media-breakpoint-up(lg) {

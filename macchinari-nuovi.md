@@ -1,6 +1,6 @@
 ---
 layout: content-nuovo
-title: Nuovo
+title: Macchinari Nuovi
 h1: Macchinari per conceria nuovi
 ---
 

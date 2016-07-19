@@ -1,5 +1,5 @@
 .bkg-img-azienda{
-    background-image: url(../img/photo/azienda-full.jpg);
+    background-image: url(../img/photo/azienda-full-03.jpg);
     background-size: cover;
     background-position: center;
     height: 220px;
@@ -9,8 +9,8 @@
 }
 @include media-breakpoint-up(sm) {
     .bkg-img-azienda{
-        height: 380px;
-        margin-top: -110px;
+        height: 350px;
+        margin-top: -95px;
         margin-bottom: 40px;
     }
 }
@@ -20,9 +20,9 @@
         margin-top: -165px;
     }
 }
-@include media-breakpoint-up(lg) {
+@include media-breakpoint-up(xl) {
     .bkg-img-azienda{
-        height: 800px;
-        margin-top: -260px;
+        height: 620px;
+        margin-top: -210px;
     }
 }
