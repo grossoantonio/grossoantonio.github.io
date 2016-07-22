@@ -1,9 +1,9 @@
 ---
 layout: product-sections
-title: Felts
+title: Embossing Felts
 sections:
 
-    - title: Felts for printing
+    - title: Embossing felts
       description: |
           Our company can provide felts for the tanning manufacturing. <br>
 
@@ -17,11 +17,10 @@ sections:
 
     - title: Silon Felt
       description: |
-          Used to print with uneven boards and felts
+          Used to emboss with uneven boards and felts
       img:
           - feltro-silon-1.jpg
           - feltro-silon-5.jpg
-          - feltro-silon-3.jpg
           - feltro-silon-7.jpg
 
 ---

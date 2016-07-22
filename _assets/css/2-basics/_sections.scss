@@ -16,6 +16,9 @@ section.white-bkg{
 }
 section .text-container {
     padding: 15px 15px 0 15px;
+    & a {
+        text-decoration: underline;
+    }
 }
 @include media-breakpoint-up(sm) {
     section .text-container {
@@ -171,6 +174,6 @@ figure img{
 .specs-wrap-top{
     padding: 0 15px 0 15px;
     @include media-breakpoint-up(sm) {
-        padding: 15px 25px 15px 0;
+        padding: 5px 25px 15px 0;
     }
 }

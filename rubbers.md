@@ -3,11 +3,11 @@ layout: product-sections
 title: Gomme
 sections:
 
-    - title: Gomma naturale e sintetica
+    - title: Gomme naturali e sintetiche
       description: |
           La nostra azienda dispone di una vasta gamma di articoli di gomma utilizzata nel settore della conceria.
 
-    - title: CARBO ROSSA
+    - title: CARBOROSSA
       description: |
         Gomma in rotoli per effettuare tappeti per palissone. <br>
 
@@ -15,18 +15,17 @@ sections:
       specs:
             - title: Spessori disponibili
               list:
-                - MM2,5
-                - Antistatica
+                - Antistatica MM2,5
             - title: Lunghezze disponibili
               list:
-                  - MM1600, MM2000
+                  - MM1600; MM2000
       img:
       - gomma-rossa-1.png
       - gomma-rossa-2.jpg
       - gomma-rossa-3.jpg
       - gomma-rossa-4.jpg
 
-    - title: CARBO GIASA
+    - title: CARBOGIASA
       description: |
           Per le presse a piatto che stampano le pelli utilizziamo varie tipologie di gomma,
           sia naturale che sintetica. Disponibile in varie mescole ed in vari spessori,
@@ -35,16 +34,15 @@ sections:
       specs:
           - title: Spessori disponibili
             list:
-              - MM1,5, MM2
-              - MM3, MM4
+              - MM1,5; MM2; MM3; MM4
           - title: Lunghezze disponibili
             list:
-                - MM1550, MM1800
+                - MM1550; MM1800
       img:
       - gomma-nera-5.png
       - gomma-nera-6.jpg
 
-    - title: PARA ANTICALORE
+    - title: PARA ANTICALORE GIALLA
       description: |
       specs:
           - title: Spessori disponibili
@@ -57,7 +55,7 @@ sections:
       - gomma-gialla-1.png
       - gomma-gialla-2.jpg
 
-    - title: MOBIL 2 ROSSA
+    - title: PARA ROSSA
       description: |
           Utilizzata per pulire carta smeriglio; consente quindi di utilizzare meno taglio di carta smeriglio.
 ---

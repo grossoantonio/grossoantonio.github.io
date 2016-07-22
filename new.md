@@ -4,4 +4,4 @@ title: Macchinari Nuovi
 h1: Macchinari per conceria nuovi
 ---
 
-Siamo in collaborazione con:
+Siamo i rappresentanti dei seguenti costruttori:

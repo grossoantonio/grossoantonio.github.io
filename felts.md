@@ -15,11 +15,10 @@ sections:
 
     - title: Feltro Silon
       description: |
-          Utilizzato per stampare con tavole e feltri non uniformi
+          Utilizzato per stampare con tavole e feltri non uniformi.
       img:
           - feltro-silon-1.jpg
           - feltro-silon-5.jpg
-          - feltro-silon-3.jpg
           - feltro-silon-7.jpg
 
 ---

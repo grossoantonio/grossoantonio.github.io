@@ -6,46 +6,46 @@ nav:
     - title: "Home"
       url: index.html
     - title: "Azienda"
-      url: /azienda.html
+      url: /company.html
     - title: "Cilindri Fotoincisi"
-      url: /cilindri-fotoincisi.html
+      url: /photoengraved-rollers.html
     - title: "Catalogo Cilindri"
-      url: /catalogo-cilindri.html
+      url: /rollers-catalog.html
     - title: "Carta Smeriglio"
-      url: /carta-smeriglio.html
+      url: /buffing-paper.html
     - title: "Prodotti"
       url: javascript:void(0)
       sub-nav:
           - title: Gomme
-            url: /gomme.html
+            url: /rubbers.html
           - title: Feltri
-            url: /feltri.html
+            url: /felts.html
           - title: Manicotto per tamponatrici
-            url: /manicotto-tamponatrici.html
+            url: /carpet-belt.html
           - title: Tappeto per Dinavac
-            url: /tappeto-dinavac.html
+            url: /dinavac-carpet.html
           - title: Pedana di sollevamento
-            url: /pedane-di-sollevamento.html
+            url: /lift-tables.html
     - title: Pezzi di ricambio
-      url: /pezzi-di-ricambio.html
+      url: /spare-parts.html
     - title: Macchinari Nuovi
-      url: /macchinari-nuovi.html
+      url: /new.html
     - title: Macchinari Usati
-      url: /macchinari-usati.html
+      url: /used.html
     - title: Contatti
-      url: /contatti.html
+      url: /contacts.html
 
 nav_en:
     - title: "Home"
       url: /en/index.html
-    - title: "The Company"
+    - title: "Company"
       url: /en/company.html
     - title: "Photoengraved Rollers"
       url: /en/photoengraved-rollers.html
     - title: "Rollers Catalog"
       url: /en/rollers-catalog.html
-    - title: "Sanding Rolls"
-      url: /en/sanding-rolls.html
+    - title: "Buffing Paper"
+      url: /en/buffing-paper.html
     - title: "Products"
       url: javascript:void(0)
       sub-nav:
@@ -53,12 +53,12 @@ nav_en:
             url: /en/rubbers.html
           - title: Felts
             url: /en/felts.html
-          - title: Buffing Carpet
-            url: /en/buffing-carpet.html
+          - title: Carpet Belt
+            url: /en/carpet-belt.html
           - title: Dinavac Carpet
             url: /en/dinavac-carpet.html
-          - title: Lift Table
-            url: /en/lift-table.html
+          - title: Lift Tables
+            url: /en/lift-tables.html
     - title: Spare Parts
       url: /en/spare-parts.html
     - title: New Machinery

@@ -3,9 +3,9 @@ layout: content-usato
 title: Second Hand machines
 h1: Second hand tanning machinery
 magazzino:
-    - title: Buffing machine Gemata
+    - title: Roller coating machine Gemata
       description: |
-          Model: EASY COAT
+          Model: EASY COAT <br>
           Working width: MM 1800
       img:
           - usato-tamponatrice-1.jpg

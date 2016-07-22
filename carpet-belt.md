@@ -7,12 +7,12 @@ sections:
       description: |
           Tappeto per macchina tamponatrice in silicone: antisolvente e antiolio, idoneo anche alla lavorazione di pellami con spessori non uniformi.
       specs:
-            - title: Idoneo per Tamponatrici
+            - title: Idoneo per Macchinari
               list:
-                - Gemata, Rollmac, Incoma, 3P
+                - Gemata; Rollmac; Incoma; 3P
             - title: Macchine con luce lavoro
               list:
-                  - MM1800, MM2200
+                  - MM1800; MM2200
       img:
           - manicotto-1.png
           - manicotto-3.jpg

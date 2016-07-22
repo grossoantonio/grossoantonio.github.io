@@ -1,6 +1,6 @@
 ---
 layout: product-2col
-title: Sanding Rolls
+title: Tanning Abrasive Paper
 img:
     - carta-2.jpg
     - carta-1.jpg

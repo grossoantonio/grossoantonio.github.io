@@ -1,6 +1,6 @@
 ---
 layout: product-sections
-title: Gomme
+title: Rubbers
 sections:
 
     - title: Natural and synthetic rubber
@@ -12,13 +12,12 @@ sections:
           Rubber in rolls to make carpets for staking machines. <br>
           Rubber in rolls to make plates used for the molding of the leather in order to protect the felt and to create special printing effects.
       specs:
-            - title: Available heights
+            - title: Thickness
               list:
-                - MM2,5
-                - Antistatic
-            - title: Available length
+                - Antistatic MM2,5
+            - title: Widths
               list:
-                  - MM1600, MM2000
+                  - MM1600; MM2000
       img:
           - gomma-rossa-1.png
           - gomma-rossa-2.jpg
@@ -29,13 +28,13 @@ sections:
       description: |
           For flat presses that print the leather we use various types of rubber, both natural and synthetic. Available in various compounds and in various thicknesses, depending on the type of leather to be processed, from the design of the plate, according to the needs of the customer. Among these we have the original Carboten anti-static plate, heat-resistant and anti-solvent, resistant to high temperatures and pressures.
       specs:
-          - title: Available heights
+          - title: Thicknesses
             list:
-              - MM1,5, MM2
-              - MM3, MM4
-          - title: Available length
+              - MM1,5; MM2
+              - MM3; MM4
+          - title: Widths
             list:
-                - MM1550, MM1800
+                - MM1550; MM1800
       img:
         - gomma-nera-5.png
         - gomma-nera-6.jpg

@@ -3,8 +3,6 @@ layout: product-slider
 title: Pezzi di ricambio
 img:
     - rullo-agata-1.jpg
-    - rullo-agata-2.jpg
-    - rullo-agata-3.jpg
     - spessimetro-2.jpg
 ---
 
