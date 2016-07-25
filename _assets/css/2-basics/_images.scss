@@ -1,0 +1,14 @@
+img.old-img{
+    width: 50%;
+    margin: 5px;
+    @include media-breakpoint-up(md) {
+        width: 40%;
+    }
+
+}
+
+img.img-left {
+    float: left;
+    width: 50%;
+    margin: 5px 15px 5px 0;
+}

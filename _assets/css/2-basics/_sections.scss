@@ -203,12 +203,3 @@ figure img{
     font-size: 1.25rem;
     color: $brand-green;
 }
-
-img.old-img{
-    width: 50%;
-    margin: 5px;
-    @include media-breakpoint-up(md) {
-        width: 40%;
-    }
-
-}

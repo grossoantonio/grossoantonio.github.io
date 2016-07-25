@@ -58,10 +58,7 @@
 .icon-wrench:before {
   content: "\67";
 }
-.icon-battery-empty:before {
-  content: "\68";
-}
-.icon-envelope:before {
+.icon-envelope-o:before {
   content: "\65";
 }
 .icon-battery:before {
@@ -69,4 +66,10 @@
 }
 .icon-notebook:before {
   content: "\69";
+}
+.icon-battery-empty:before {
+  content: "\68";
+}
+.icon-minus:before {
+  content: "\6a";
 }

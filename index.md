@@ -2,9 +2,9 @@
 layout: content-home
 title: Grosso Antonio
 img:
-    - cilindri-1.jpg
+    - home-1.jpg
+    - home-cilindri.jpg
     - home-macchinari-1.jpg
-    - azienda-3.jpg
 title1: Cilindri Fotoincisi
 link1: cilindri-fotoincisi.html
 p1: |
