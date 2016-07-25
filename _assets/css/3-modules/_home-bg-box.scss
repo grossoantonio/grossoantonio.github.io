@@ -25,13 +25,13 @@
             border-width: 40px 35px 0 35px;
         }
     }
-    @include media-breakpoint-up(sm) {
-        .col-sm-4:hover{
-            &::before{
-                content: '';
-            }
-        }
-    }
+    // @include media-breakpoint-up(sm) {
+    //     .col-sm-4:hover{
+    //         &::before{
+    //             content: '';
+    //         }
+    //     }
+    // }
     .slider-home{
         max-width: 650px;
         margin: 0 auto;
