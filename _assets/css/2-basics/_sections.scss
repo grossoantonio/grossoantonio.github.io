@@ -177,3 +177,18 @@ figure img{
         padding: 5px 25px 15px 0;
     }
 }
+
+.not-found{
+    text-align: center;
+    margin-top: 80px;
+    h1{
+        font-size: 8rem;
+        font-weight: 300;
+        color: $brand-green;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 600;
+        color: $brand-brown;
+    }
+}

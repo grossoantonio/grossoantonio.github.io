@@ -36,7 +36,8 @@ sections:
             list:
                 - MM1550; MM1800
       img:
-        - gomma-nera-5.png
+        - gomma-nera-1.png
+        - gomma-nera-2.jpg
         - gomma-nera-6.jpg
 
     - title: Heat-resistant Para Rubber
@@ -51,6 +52,7 @@ sections:
       img:
         - gomma-gialla-1.png
         - gomma-gialla-2.jpg
+        - gomma-gialla-3.png
 
     - title: MOBIL 2 ROSSA
       description: |

@@ -14,6 +14,7 @@ sections:
       img:
           - feltro-bianco-1.jpg
           - feltro-bianco-2.jpg
+          - feltro-bianco-3.jpg
 
     - title: Silon Felt
       description: |
