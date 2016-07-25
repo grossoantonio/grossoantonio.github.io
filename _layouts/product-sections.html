@@ -7,6 +7,7 @@ layout: default
     <section class="white-bkg">
         <div class="row ">
             <h1 class="title-product title-small section-header">{{ section.title }}</h1>
+            {% if section.description %}
             <div class="{% if section.specs %} col-sm-7 {% else %} col-xs-12 {% endif %}">
                 <div class="text-container">
 
@@ -15,7 +16,7 @@ layout: default
                     </p>
                 </div>
             </div>
-
+            {% endif %}
             {% if section.specs %}
                 <div class="col-sm-5">
                     <div class="specs-wrap specs-wrap-top">

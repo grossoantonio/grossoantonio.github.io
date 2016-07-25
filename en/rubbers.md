@@ -41,7 +41,6 @@ sections:
         - gomma-nera-6.jpg
 
     - title: Heat-resistant Para Rubber
-      description: |
       specs:
           - title: Available heights
             list:

@@ -5,18 +5,18 @@ sections:
 
     - title: Gomme naturali e sintetiche
       description: |
-          La nostra azienda dispone di una vasta gamma di articoli di gomma utilizzata nel settore della conceria.
+          La nostra azienda dispone di una vasta gamma di articoli di gomma utilizzata nel settore della conceria. Ogniuna di esse ha un differente impiego.
+          Per le presse a piatto che stampano le pelli utiliziamo varie tipologie di gomma, sia naturale che sintetica, disponibile in varie mescole ed in vari spezzoni, per le diverse applicazioni a seconda delle esigenze del cliente. Abbiamo inoltre gomme utilizzate per effettuare tappeti per palissoni e gomme che vengono utilizzate nella lavorazione di smerigliatura, per ripulire la carta smeriglio, consentendo quindi di utilizzare meno fogli.
 
     - title: CARBOROSSA
       description: |
-        Gomma in rotoli per effettuare tappeti per palissone. <br>
+        Gomma in rotoli utilizzata per lo stampaggio e lo stiro delle pelli oltre che per effettuare tappeti per palissone. <br>
 
-        Gomma in rotoli per effettuare lastre utilizzate per lo stampaggio delle pelli in modo da poter proteggere il feltro e per creare effetti di stampa particolari.
       specs:
-            - title: Spessori disponibili
+            - title: Spessori
               list:
                 - Antistatica MM2,5
-            - title: Lunghezze disponibili
+            - title: Lunghezze
               list:
                   - MM1600; MM2000
       img:
@@ -27,15 +27,12 @@ sections:
 
     - title: CARBOGIASA
       description: |
-          Per le presse a piatto che stampano le pelli utilizziamo varie tipologie di gomma,
-          sia naturale che sintetica. Disponibile in varie mescole ed in vari spessori,
-          a seconda del tipo di pellame da lavorare, dal disegno della piastra, secondo le esigenze del Cliente.
-          Tra queste abbiamo la lastra Carboten originale antistatica, anticalore ed anti solvente, resistente a temperature e pressioni elevate.
+        Gomme in rotoli in varie tipologie e spessori utilizzata per lo stampaggio delle pelli. Tra queste abbiamo la lastra Carboten originale antistatica, anticalore e antisolvente, resistente a temperature e pressioni elevate.
       specs:
-          - title: Spessori disponibili
+          - title: Spessori
             list:
               - MM1,5; MM2; MM3; MM4
-          - title: Lunghezze disponibili
+          - title: Lunghezze
             list:
                 - MM1550; MM1800
       img:
@@ -44,12 +41,11 @@ sections:
       - gomma-nera-6.jpg
 
     - title: PARA ANTICALORE GIALLA
-      description: |
       specs:
-          - title: Spessori disponibili
+          - title: Spessori
             list:
               - MM2
-          - title: Lunghezze disponibili
+          - title: Lunghezze
             list:
                 - MM1550
       img:
@@ -58,6 +54,4 @@ sections:
       - gomma-gialla-3.png
 
     - title: PARA ROSSA
-      description: |
-          Utilizzata per pulire carta smeriglio; consente quindi di utilizzare meno taglio di carta smeriglio.
 ---

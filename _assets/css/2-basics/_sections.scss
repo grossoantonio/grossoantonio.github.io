@@ -15,14 +15,14 @@ section.white-bkg{
     @include card(1);
 }
 section .text-container {
-    padding: 15px 15px 0 15px;
+    padding: 15px 25px 0;
     & a {
         text-decoration: underline;
     }
 }
 @include media-breakpoint-up(sm) {
     section .text-container {
-        padding: 25px 25px 10px 25px;
+        padding: 15px 25px 0;
     }
     .margin-left-0 {
         margin-left: 0!important;
@@ -123,7 +123,7 @@ figure img{
     margin: 0 auto 20px auto;
     img{
         display: inline-block;
-        width: 70px;
+        width: 60px;
     }
     h4{
         display: inline-block;
@@ -131,7 +131,7 @@ figure img{
     }
     .logo-label{
         display: inline-block;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         line-height: 1.75rem;
         color: $brand-green;
         width: 60%;
@@ -148,7 +148,7 @@ figure img{
             font-size: 18px;
         }
         color: $brand-green;
-        margin-top: 20px;
+        margin-top: 15px;
         margin-bottom: 10px;
     }
     .item{
@@ -167,14 +167,16 @@ figure img{
 }
 .specs-wrap-left{
     padding: 0 15px 0 15px;
+    text-align: center;
     @include media-breakpoint-up(sm) {
         padding: 5px 0 20px 30px;
+        text-align: left;
     }
 }
 .specs-wrap-top{
-    padding: 0 15px 0 15px;
+    padding: 0 25px;
     @include media-breakpoint-up(sm) {
-        padding: 5px 25px 15px 0;
+        padding: 0 25px;
     }
 }
 
@@ -191,4 +193,22 @@ figure img{
         font-weight: 600;
         color: $brand-brown;
     }
+}
+
+.prod-desc{
+    margin: 0 25px 15px;
+    @include media-breakpoint-up(md) {
+        margin: 25px 0;
+    }
+    font-size: 1.25rem;
+    color: $brand-green;
+}
+
+img.old-img{
+    width: 50%;
+    margin: 5px;
+    @include media-breakpoint-up(md) {
+        width: 40%;
+    }
+
 }

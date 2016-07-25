@@ -14,7 +14,7 @@ specs:
       - KP43E
       - KP20F
       - KT62X
-    h: Altezze disponibili
+    h: Altezze
     s-list:
         - MM610, MM330, MM255
         - MM610, MM330, MM255
