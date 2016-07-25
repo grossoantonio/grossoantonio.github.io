@@ -5,8 +5,14 @@
 .slider-margin25 .slick-slide{
     margin: 25px;
 }
+.slider-margin25{
+    margin-bottom: 15px;
+}
 .img-margin25{
     margin: 15px;
+}
+.slider-small{
+    margin: 0 25px 25px;
 }
 @include media-breakpoint-up(sm) {
     .img-margin25{

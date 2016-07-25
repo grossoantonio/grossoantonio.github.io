@@ -2,9 +2,9 @@
 layout: content-home
 title: Grosso Antonio
 img:
-    - cilindri-1.jpg
-    - home-macchinari-1.jpg
-    - azienda-3.jpg
+- home-1.jpg
+- home-cilindri.jpg
+- home-macchinari-1.jpg
 title1: Photoengraved Rollers
 link1: photoengraved-rollers.html
 p1: |

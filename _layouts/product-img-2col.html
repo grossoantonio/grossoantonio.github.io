@@ -15,7 +15,7 @@ layout: default
         {% for row in page.row %}
         <div class="row">
             <div class="col-md-6">
-                <div class="slider-auto  slider-margin25 slider-bkg-green">
+                <div class="slider-auto slider-small slider-bkg-green">
                     {% for img in row.img %}
                         <img class="img-fluid" src="/assets/img/photo/{{ img }}" alt="{{ img | replace: '-', ' ' | remove: ".jpg" }}" />
                     {% endfor %}
