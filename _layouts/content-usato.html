@@ -18,9 +18,9 @@ layout: default
         {% for item in page.magazzino %}
             <div class="col-ul-4  col-md-6 col-sm-12">
                 <div class="card">
-                    <div class="slider">
+                    <div class="slider-auto">
                         {% for img in item.img %}
-                            <img class="card-img-top img-fluid" src="/assets/img/usato/{{ img }}" alt="{{ img | replace: '-', ' ' | remove: ".jpg" | remove: ".png" }}" />
+                            <img class="card-img-top img-fluid img-margin25" src="/assets/img/usato/{{ img }}" alt="{{ img | replace: '-', ' ' | remove: ".jpg" | remove: ".png" }}" />
                         {% endfor %}
                     </div>
 

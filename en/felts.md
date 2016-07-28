@@ -14,14 +14,13 @@ sections:
       img:
           - feltro-bianco-1.jpg
           - feltro-bianco-2.jpg
-          - feltro-bianco-3.jpg
 
     - title: Silon Felt
       description: |
           Used to emboss with uneven boards and felts
       img:
-          - feltro-silon-1.jpg
-          - feltro-silon-5.jpg
           - feltro-silon-7.jpg
+          - feltro-silon-5.jpg
+          - feltro-silon-1.jpg
 
 ---

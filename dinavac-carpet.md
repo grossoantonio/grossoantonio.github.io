@@ -7,4 +7,4 @@ img:
     - dinavac-4.jpg
 ---
 
-Tappeti in gomma e in tessuto per inchiodatrici Dinavac
+Tappeti in gomma e in tessuto per inchiodatori Dinavac

@@ -12,14 +12,13 @@ sections:
       img:
           - feltro-bianco-1.jpg
           - feltro-bianco-2.jpg
-          - feltro-bianco-3.jpg
 
     - title: Feltro Silon
       description: |
           Utilizzato per stampare con tavole e feltri non uniformi.
       img:
-          - feltro-silon-1.jpg
-          - feltro-silon-5.jpg
           - feltro-silon-7.jpg
+          - feltro-silon-5.jpg
+          - feltro-silon-1.jpg
 
 ---

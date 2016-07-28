@@ -1,6 +1,6 @@
 ---
 layout: product-img-2col
-title: Pezzi di ricambio
+title: Pezzi di ricambio e accessoristica varia
 row:
     - title: Spessimetri
       img:

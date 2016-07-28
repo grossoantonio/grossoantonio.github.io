@@ -32,10 +32,12 @@ layout: default
             </div>
             <div class="col-md-6">
                 <div class="side-description text-container">
+                    {% if page.logo %}
                     <div class="awuko-logo">
                         <img class="img-fluid" src="/assets/img/awuko_logo.png" alt="" />
                         <span class="logo-label">{{page.logo}}</span>
                     </div>
+                    {% endif %}
                     <h1 class="title-product title-small">{{page.title}}</h1>
                     {{content}}
                 </div>

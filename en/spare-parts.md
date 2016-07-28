@@ -1,6 +1,6 @@
 ---
 layout: product-img-2col
-title: Spare parts
+title: Spare parts and miscellaneous accessories
 row:
     - title: Thickness gause
       img:
@@ -8,7 +8,7 @@ row:
     - title: Agata Rollers
       img:
         - rullo-agata-1.jpg
-    - title: Tappeti per spazzolatrici
+    - title: Buffing belts
       img:
         - tappeto-1.png
         - tappeto-2.jpg

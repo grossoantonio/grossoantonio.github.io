@@ -21,7 +21,6 @@ sections:
       img:
           - gomma-rossa-1.png
           - gomma-rossa-2.jpg
-          - gomma-rossa-3.jpg
           - gomma-rossa-4.jpg
 
     - title: CARBO GIASA
