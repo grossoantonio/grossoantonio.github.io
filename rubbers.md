@@ -1,5 +1,5 @@
 ---
-layout: product-sections
+layout: product-2col-sections
 title: Gomme
 sections:
 
@@ -53,4 +53,6 @@ sections:
       - gomma-gialla-3.png
 
     - title: PARA ROSSA
+      description: |
+        Utilizzata per pulire carta smeriglio.
 ---

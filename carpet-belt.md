@@ -1,5 +1,5 @@
 ---
-layout: product-sections
+layout: product-2col-sections
 title: Manicotto per tamponatrici
 sections:
 

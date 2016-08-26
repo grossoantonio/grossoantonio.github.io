@@ -22,7 +22,7 @@ section .text-container {
 }
 @include media-breakpoint-up(sm) {
     section .text-container {
-        padding: 15px 25px 0;
+        padding: 20px 25px 0;
     }
     .margin-left-0 {
         margin-left: 0!important;
@@ -176,7 +176,7 @@ figure img{
 .specs-wrap-top{
     padding: 0 25px;
     @include media-breakpoint-up(sm) {
-        padding: 0 25px;
+        padding: 0 10px;
     }
 }
 

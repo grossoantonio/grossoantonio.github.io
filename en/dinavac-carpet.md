@@ -1,10 +1,13 @@
 ---
-layout: product-slider
-title: Dinavac carpet
-img:
-    - dinavac-1.jpg
-    - dinavac-3.jpg
-    - dinavac-4.jpg
----
+layout: product-2col-sections
+title: Dynavac carpet
+sections:
 
-Dinavac carpet (descrizione)
+    - title: Tappeto per Dynavac
+      description: |
+          Rubber and fabric carpets for Dynavac toggling machines
+      img:
+        - dinavac-1.jpg
+        - dinavac-3.jpg
+        - dinavac-4.jpg
+---
