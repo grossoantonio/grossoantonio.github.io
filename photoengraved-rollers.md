@@ -15,4 +15,4 @@ attuale che è sempre in continua evoluzione.
 Operiamo su tutto il territorio nazionale e mondiale con esperienza e professionalità, pronti a soddisfare qualsiasi esigenza d'acquisto e di consegna in tempi sempre più rapidi grazie ad
 un'ottima organizzazione aziendale.
 
-<span class="title-xs"><a href="catalogo-cilindri.html">Visita il nostro catalogo</a></span>
+<span class="title-xs"><a href="rollers-catalog.html">Visita il nostro catalogo</a></span>

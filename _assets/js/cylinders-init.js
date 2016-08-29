@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     // INIT select tools and image
-    var catName = cat.cat_it;
+    var catTitle = cat.cat_it;
     var codName = cat.cod_it;
 
     //check language
@@ -10,27 +10,38 @@ $(document).ready(function(){
         langEN = true;
     }
     if(langEN){
-        catName = cat.cat_en;
+        catTitle = cat.cat_en;
         codName = cat.cod_en;
     }
 
-    $('.controls-wrap .select-cat h3').html(catName);
+    $('.controls-wrap .select-cat h3').html(catTitle);
     $('.controls-wrap .select-cyl h3').html(codName);
 
     $.each(cat.list, function(index, value){
+
+        var catName = this.name_it;
+        var catNameEn = this.name_en;
+
         if(index===0){
-            $('.controls-wrap .select-cat ul').append('<li class="selected" data-cat="'+ this.name_it +'"><span>' + this.name_it+'</span></li>');
-            $.each(this["cod-list"], function (i, v) {
-                var code = v.replace(" ", "-");
+
+            if(langEN){
+                catName = this.name_en;
+            }
+            $('.controls-wrap .select-cat ul').append('<li class="selected" data-cat="'+ catName +'"><span>' + catName+'</span></li>');
+            $.each(this["cod-list"], function (i, code) {
+                var v = code.replace(/\-/g, " ");
                 if(i===0){
-                    $('.controls-wrap .select-cyl ul').append('<li class="selected" data-cod="'+ code +'"><span>' + v +'</span></li>');
-                    $('.elements-wrap .element-img').append('<div class="img-cilindro" style="background-image:url(/assets/img/cilindri/'+code+'.jpg)"></div>');
+                    $('.controls-wrap .select-cyl ul').append('<li class="selected" data-cod="'+ code +'" data-cat-en="'+ catNameEn +'"><span>' + v +'</span></li>');
+                    $('.elements-wrap .element-img').append('<div class="img-cilindro" style="background-image:url(/assets/img/cilindri/' + code + '.jpg)"></div>');
                 }else{
-                    $('.controls-wrap .select-cyl ul').append('<li data-cod="'+ code +'"><span>' + v +'</span></li>');
+                    $('.controls-wrap .select-cyl ul').append('<li data-cod="'+ code +'" data-cat-en="'+ catNameEn +'"><span>' + v +'</span></li>');
                 }
            });
         }else{
-            $('.controls-wrap .select-cat ul').append('<li data-cat="'+ this.name_it +'"><span>' + this.name_it+'</span></li>');
+            if(langEN){
+                catName = this.name_en;
+            }
+            $('.controls-wrap .select-cat ul').append('<li data-cat="'+ catName +'"><span>' + catName +'</span></li>');
         }
     });
 
@@ -41,18 +52,19 @@ $(document).ready(function(){
         var data = $(this).data("cat");
 
         $.each(cat.list, function(index, value){
+            var catNameEn = this.name_en;
             if(value.name_it == data){
                 $('.controls-wrap .select-cyl ul').html("");
-                $.each(this["cod-list"], function (i, v) {
-                    var code = v.replace(" ", "-");
+                $.each(this["cod-list"], function (i, code) {
+                    var v = code.replace(/\-/g, " ");
                     var liData = '<li data-cod="'+ code +'" style="display:none;"><span>' + v +'</span></li>';
                     if(i===0){
-                        $('<li class="selected" data-cod="'+ code +'" style="display:none;"><span>' + v +'</span></li>').appendTo('.controls-wrap .select-cyl ul').fadeIn(300*i+1);
+                        $('<li class="selected" data-cod="'+ code +'" data-cat-en="'+ catNameEn +'" style="display:none;"><span>' + v +'</span></li>').appendTo('.controls-wrap .select-cyl ul').fadeIn(300*i+1);
                         $('.elements-wrap .element-img .img-cilindro').fadeOut(500, function() { $(this).remove(); });
-                        $('.elements-wrap .element-img').append('<div class="img-cilindro" style="background-image:url(/assets/img/cilindri/'+code+'.jpg); display:none;"></div>');
+                        $('.elements-wrap .element-img').append('<div class="img-cilindro" style="background-image:url(/assets/img/cilindri/' + code+'.jpg); display:none;"></div>');
                         $('.elements-wrap .element-img .img-cilindro').fadeIn(1000);
                     }else{
-                        $('<li data-cod="'+ code +'" style="display:none;"><span>' + v +'</span></li>').appendTo('.controls-wrap .select-cyl ul').fadeIn(300*i+1);
+                        $('<li data-cod="'+ code +'" data-cat-en="'+ catNameEn +'" style="display:none;"><span>' + v +'</span></li>').appendTo('.controls-wrap .select-cyl ul').fadeIn(300*i+1);
                     }
                });
             }
@@ -65,8 +77,10 @@ $(document).ready(function(){
             $(this).toggleClass('selected');
             var data = $(this).data("cod");
 
+            var dataCat = $(this).data("cat-en");
+
             $('.elements-wrap .element-img .img-cilindro').fadeOut(500, function() { $(this).remove(); });
-            $('.elements-wrap .element-img').append('<div class="img-cilindro" style="background-image:url(/assets/img/cilindri/'+data+'.jpg); display:none;"></div>');
+            $('.elements-wrap .element-img').append('<div class="img-cilindro" style="background-image:url(/assets/img/cilindri/' + data + '.jpg); display:none;"></div>');
             $('.elements-wrap .element-img .img-cilindro').fadeIn(1000);
 
         });
@@ -80,8 +94,10 @@ $(document).ready(function(){
         $(this).toggleClass('selected');
         var data = $(this).data("cod");
 
+        var dataCat = $(this).data("cat-en");
+
         $('.elements-wrap .element-img .img-cilindro').fadeOut(500, function() { $(this).remove(); });
-        $('.elements-wrap .element-img').append('<div class="img-cilindro" style="background-image:url(/assets/img/cilindri/'+data+'.jpg); display:none;"></div>');
+        $('.elements-wrap .element-img').append('<div class="img-cilindro" style="background-image:url(/assets/img/cilindri/' + data+'.jpg); display:none;"></div>');
         $('.elements-wrap .element-img .img-cilindro').fadeIn(1000);
 
     });
