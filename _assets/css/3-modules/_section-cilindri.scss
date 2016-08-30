@@ -90,6 +90,22 @@
     }
 }
 
+@include media-breakpoint-down(sm) {
+    .controls-wrap{
+        .el-select{
+            h3{
+
+            }
+            ul{
+                padding: 5px;
+            }
+            li{
+                font-size: 14px;
+            }
+        }
+    }
+}
+
 @include media-breakpoint-down(xs) {
     .container-app{
         padding: 0;
