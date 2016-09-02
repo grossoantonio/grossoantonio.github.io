@@ -1,9 +1,9 @@
 var cat =
 {
-  "cat_it": "effetti",
-  "cat_en": "category",
-  "cod_it": "codice cilindro",
-  "cod_en": "cylinder code",
+  "cat_it": "Effetti",
+  "cat_en": "Category",
+  "cod_it": "Codice Cilindro",
+  "cod_en": "Cylinder Code",
   "list": [
     {
       "name_it": "animali",
