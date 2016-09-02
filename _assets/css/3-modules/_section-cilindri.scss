@@ -32,18 +32,26 @@
     margin-bottom: 5px;
     .img-cilindro{
         position: absolute;
-        height: 100%;
+        height: 84%;
         width: 100%;
         background-repeat: no-repeat;
         background-position: center;
-        background-size: auto 100% ;
+        background-size: contain;
+        @include media-breakpoint-up(sm) {
+            height: 100%;
+        }
     }
 }
 
-.controls-wrap{
+.controls-wrap {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @include media-breakpoint-up(sm) {
+        margin-left: 10px;
+    }
+
     .el-select{
         h3{
             background-color: $brand-green;
@@ -79,25 +87,28 @@
         }
         &.select-cat{
             ul{
-                max-height: 20vh;
+                max-height: 185px;
             }
         }
         &.select-cyl{
             ul{
-                max-height: 35vh;
+                max-height: 185px;
             }
         }
     }
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-only(sm) {
     .controls-wrap{
         .el-select{
+            max-width: 220px;
             h3{
-
+                font-size: 1.25rem;
+                line-height: 2.5rem;
+                padding: 0 10px;
             }
             ul{
-                padding: 5px;
+                padding: 0 10px;
             }
             li{
                 font-size: 14px;
@@ -122,12 +133,24 @@
             h3{
                 font-size: 1.25rem;
                 line-height: 40px;
+                &.icon-angle-right:before{
+                    transition: all .3s;
+                    transform: rotate(90deg);
+                    position: absolute;
+                    right: 20px;
+                    line-height: 40px;
+                }
             }
             ul{
                 margin: 0;
+                box-shadow: inset 0px -20px 10px -10px hsla(0,0%,0%,.25);
             }
             &.mobile-open{
                 max-height: 350px;
+                & h3.icon-angle-right:before{
+                    transition: all .3s ;
+                    transform: rotate(-90deg);
+                }
             }
         }
         .select-cat{

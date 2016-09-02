@@ -25,7 +25,7 @@
             font-size: 1rem;
         }
     }
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(sm) {
         margin: 10px auto 40px;
         .header-sub{
             border-top: 3px solid $brand-green;
