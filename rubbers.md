@@ -54,5 +54,7 @@ sections:
 
     - title: PARA ROSSA
       description: |
-        Utilizzata per pulire carta smeriglio.
+        Viene utilizzata nella lavorazione di smerigliatura, consente di ripulire e scaricare la carta, risparmiando così quantità ulteriori di tagli o nastri.
+      img:
+      - para-rossa.gif
 ---

@@ -53,5 +53,7 @@ sections:
 
     - title: RED PARA RUBBER
       description: |
-          Used to clean buffing paper.
+          Used in the buffing process, it allows to clean and drain the paper, thus saving additional cuts or strips of buffing paper.
+      img:
+        - para-rossa.gif
 ---
