@@ -58,7 +58,7 @@ gulp.task('sass', function () {
             includePaths: ['css'],
             onError: browserSync.notify
         }).on('error', sass.logError))
-        .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+        .pipe(prefix(['last 15 versions', '> 1%', 'ie 10', 'ie 9'], { cascade: true }))
         .pipe(rename({suffix: '.min', prefix : ''}))
 		.pipe(minifycss())
         .pipe(gulp.dest('_site/assets/css'))

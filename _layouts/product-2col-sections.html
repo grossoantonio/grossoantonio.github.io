@@ -6,8 +6,22 @@ layout: default
     {% for section in page.sections %}
     <section class="white-bkg">
         <div class="row">
+            <div class="{% if section.img %} col-md-6 col-md-push-6 {% endif %} {% unless section.img  %} col-xs-12 {% endunless %}">
+                <div class="side-description text-container">
+                    {% if page.logo %}
+                    <div class="awuko-logo">
+                        <img class="img-fluid" src="/assets/img/awuko_logo.png" alt="" />
+                        <span class="logo-label">{{page.logo}}</span>
+                    </div>
+                    {% endif %}
+                    <h1 class="title-product title-small">{{section.title}}</h1>
+                    <p>
+                        {{ section.description }}
+                    </p>
+                </div>
+            </div>
             {% if section.img %}
-            <div class="col-md-6">
+            <div class="col-md-6 col-md-pull-6">
                 <div class="slider-auto slider-margin25">
                     {% for img in section.img %}
                         <img class="img-fluid" src="/assets/img/photo/{{ img }}" alt="{{page.img | replace: '-', ' ' | remove: ".jpg" }}" />
@@ -31,20 +45,6 @@ layout: default
                 {% endif %}
             </div>
             {% endif %}
-            <div class="{% if section.img %} col-md-6 {% endif %} {% unless section.img  %} col-xs-12 {% endunless %}">
-                <div class="side-description text-container">
-                    {% if page.logo %}
-                    <div class="awuko-logo">
-                        <img class="img-fluid" src="/assets/img/awuko_logo.png" alt="" />
-                        <span class="logo-label">{{page.logo}}</span>
-                    </div>
-                    {% endif %}
-                    <h1 class="title-product title-small">{{section.title}}</h1>
-                    <p>
-                        {{ section.description }}
-                    </p>
-                </div>
-            </div>
         </div>
     </section>
     {% endfor %}

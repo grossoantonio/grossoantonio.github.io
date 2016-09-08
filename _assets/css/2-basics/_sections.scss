@@ -1,12 +1,29 @@
 @include media-breakpoint-down(md) {
     .side-description{
-        margin-top: 15px
+        margin-top: 15px;
     }
     section.white-bkg{
         //margin-top: 15px;
         //margin-bottom: 15px;
     }
 }
+// @include media-breakpoint-down(sm) {
+//
+//     section.white-bkg{
+//         position: relative;
+//         padding-top: 45px;
+//         .col-md-6{
+//             position: static;
+//             .side-description{
+//                 h1{
+//                     position: absolute;
+//                     top: 0;
+//                     margin: 15px 0;
+//                 }
+//             }
+//         }
+//     }
+// }
 
 section.white-bkg{
     background-color: #fff;

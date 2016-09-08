@@ -1,3 +1,5 @@
+$(".closeThis").click(function(){ $("#warning").fadeOut('700'); });
+
 $(".hamburger").click(function() {
     $(".menu-collapsed").toggleClass("menu-expanded");
 });

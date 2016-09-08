@@ -1,6 +1,6 @@
 ---
 layout: cylinders
-title: Catalogo Cilindri Fotoincisi
+title: Rollers Catalog
 ---
 
 {% include cat-cilindri.html %}

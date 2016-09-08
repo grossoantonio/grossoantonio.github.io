@@ -1,4 +1,5 @@
 name: Grosso Antonio
+title: Grosso Antonio
 markdown: kramdown
 exclude: ["node_modules", "gulpfile.js", "package.json", "readme.md"]
 

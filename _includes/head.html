@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.title }}{% endif %}">
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.title }} | {{ site.title }} {% endif %}">
 
 <!-- Disable tap highlight on IE -->
 <meta name="msapplication-tap-highlight" content="no">
@@ -29,5 +29,14 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
 <!-- Custom CSS -->
+<style media="screen">
+#warning { position:fixed; top:40%; bottom:40%; left:0px; right:0px; background:#3d815c; font-family:"Arial",sans-serif; z-index: 999;}
+  #warning a.closeThis { position:absolute; top:20px; right:20px; display:block; width:20px; height:20px; font-size:30px; line-height:20px; text-align:center; color:#fff; text-decoration:none; text-shadow:-1px -1px #a63922; }
+  #warning .warningContent { position:absolute; top:50%; left:50%; margin:-40px 0px 0px -170px; display:block; width:380px; height:80px; color:#f6e2dd; text-shadow:-1px -1px #a63922; }
+    #warning .warningContent span { font-size:81px; font-weight:bold; line-height:93px; display:block; width:20px; float:left; margin-right:5px; }
+    #warning .warningContent .wHeading { font-size:38px; font-weight:bold; line-height:45px; margin:0px; letter-spacing:-2px; }
+    #warning .warningContent p { font-size:14px; font-weight:regular; line-height:16px; letter-spacing:0px; margin:0px; padding:0px; }
+    #warning .warningContent p a { font-size:14px; font-weight:regular; color:#ff5559; text-decoration:underline; }
+</style>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="/assets/css/main.min.css">
