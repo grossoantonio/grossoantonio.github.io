@@ -12,6 +12,10 @@ row:
       img:
         - tappeto-1.png
         - tappeto-2.jpg
+    - title: Staking Carpets
+      img:
+        - tappeto-palissone-1.png
+        - tappeto-palissone-2.png
 img:
     - rullo-agata-1.jpg
     - spessimetro-2.jpg
