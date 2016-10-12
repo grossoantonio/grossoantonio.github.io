@@ -27,6 +27,8 @@ nav:
             url: /dinavac-carpet.html
           - title: Pedana di sollevamento
             url: /lift-tables.html
+          - title: Cabina Luci
+            url: /colour-hatching-cabinets.html
     - title: Pezzi di ricambio
       url: /spare-parts.html
     - title: Macchinari Nuovi
@@ -60,6 +62,8 @@ nav_en:
             url: /en/dinavac-carpet.html
           - title: Lift Tables
             url: /en/lift-tables.html
+          - title: Colour Hatching Cabinets
+            url: /en/colour-hatching-cabinets.html
     - title: Spare Parts
       url: /en/spare-parts.html
     - title: New Machinery

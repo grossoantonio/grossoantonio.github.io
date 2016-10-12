@@ -10,7 +10,7 @@ sections:
 
     - title: CARBOROSSA
       description: |
-        Gomma in rotoli utilizzata per lo stampaggio e lo stiro delle pelli oltre che per effettuare tappeti per palissone. <br>
+        Gomma in rotoli utilizzata per lo stampaggio e lo stiro delle pelli
 
       specs:
             - title: Spessori

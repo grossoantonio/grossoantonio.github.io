@@ -2,10 +2,14 @@
 layout: content-home
 title: Grosso Antonio
 img:
-    - /old/old-1.jpg
-    - /old/old-2.jpg
-    - /old/old-3.jpg
-    - /old/old-4.jpg
+    - /old/home-old-1.jpg
+    - /old/home-old-2.jpg
+    - /old/home-old-3.jpg
+    - /old/home-old-4.jpg
+    - /old/home-old-5.jpg
+    - /old/home-old-6.jpg
+    - /old/home-old-7.jpg
+    - /old/home-old-8.jpg
 title1: Cilindri Fotoincisi
 link1: photoengraved-rollers.html
 p1: |

@@ -213,12 +213,15 @@ figure img{
 }
 
 .prod-desc{
-    margin: 0 25px 15px;
+    margin: 0 25px 40px;
     @include media-breakpoint-up(md) {
-        margin: 25px 0;
+        margin: 0 25px 0 0;
     }
-    font-size: 1.25rem;
-    color: $brand-green;
+    h3{
+        font-size: 1.25rem;
+        color: $brand-green;
+    }
+
 }
 .container-cards .card {
     margin: 20px;

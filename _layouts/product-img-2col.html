@@ -23,7 +23,11 @@ layout: default
             </div>
             <div class="col-md-6">
                 <div class="prod-desc">
-                    {{ row.title | textilize }}
+                    <h3>{{ row.title | textilize }}</h3>
+                    <p>
+                        {{ row.description | textilize }}
+                    </p>
+                    <hr class="hidden-md-up">
                 </div>
             </div>
         </div>

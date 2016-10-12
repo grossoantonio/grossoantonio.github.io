@@ -10,7 +10,7 @@ sections:
 
     - title: CARBOROSSA
       description: |
-        Rubber in rolls used for the molding and the ironing of the leather as well as for making staking carpets.
+        Rubber in rolls used for the molding and the ironing of the leather.
       specs:
             - title: Thickness
               list:
