@@ -7,7 +7,7 @@
         {% unless page.url contains "/en/" %}
             {% for link in site.nav %}
                 <li>
-                    <a href="{{ site.url }}{{ link.url }}" class="{% if page.url contains link.url %} active-nav {% endif %}">{{ link.title }}</a>
+                    <a href="{% unless link.sub-nav %} {{ site.url }} {% endunless %}{{ link.url }}" class="{% if page.url contains link.url %} active-nav {% endif %}">{{ link.title }}</a>
                 {% if link.sub-nav %}
                     <ul class="sub-nav">
                         {% for link-sub in link.sub-nav %}
