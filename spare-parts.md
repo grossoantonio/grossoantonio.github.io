@@ -17,6 +17,7 @@ row:
       img:
         - tappeto-palissone-1.png
         - tappeto-palissone-2.png
+        - tappeto-palissone-3.png
       description: Tappeti in tessuto elastico per palissoni Baggio; 3P; Cartigliano ecc.
 
 ---
