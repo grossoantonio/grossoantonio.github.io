@@ -1,0 +1,228 @@
+@include media-breakpoint-down(md) {
+    .side-description{
+        margin-top: 15px;
+    }
+    section.white-bkg{
+        //margin-top: 15px;
+        //margin-bottom: 15px;
+    }
+}
+// @include media-breakpoint-down(sm) {
+//
+//     section.white-bkg{
+//         position: relative;
+//         padding-top: 45px;
+//         .col-md-6{
+//             position: static;
+//             .side-description{
+//                 h1{
+//                     position: absolute;
+//                     top: 0;
+//                     margin: 15px 0;
+//                 }
+//             }
+//         }
+//     }
+// }
+
+section.white-bkg{
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    @include card(1);
+}
+section .text-container {
+    padding: 15px 25px 0;
+    & a {
+        text-decoration: underline;
+    }
+}
+@include media-breakpoint-up(sm) {
+    section .text-container {
+        padding: 20px 25px 0;
+    }
+    .margin-left-0 {
+        margin-left: 0!important;
+    }
+}
+@include media-breakpoint-up(sm) {
+    .container-fluid.container-cards{
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+figure img{
+    margin: 0 auto;
+}
+.section-pad-lr{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+@include media-breakpoint-up(sm) {
+    .section-pad-lr{
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+    }
+}
+
+.logo-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    @include media-breakpoint-up(md) {
+        height: 200px;
+    }
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #ECF0F1;
+    transition: all 0.3s ease-in-out;
+    figure{
+        img{
+            max-height: 80px;
+            max-width: 160px;
+        }
+        margin: 0;
+        figcaption{
+            margin-top: 15px;
+            text-transform: uppercase;
+        }
+
+    }
+    &:hover{
+        background-color: #D2D7D3;
+    }
+}
+
+#map.full-screen-map {
+    height: 300px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+@include media-breakpoint-up(lg) {
+    #map.full-screen-map{
+        height: 500px;
+        margin-top: -135px;
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-bottom: 50px;
+    }
+}
+@include media-breakpoint-up(ul) {
+    #map.full-screen-map{
+        height: 600px;
+    }
+}
+
+.indent-right{
+    margin-left: 50px;
+}
+.indent-left{
+    margin-right: 50px;
+}
+@include media-breakpoint-down(xs) {
+    .contacts-wrap{
+        .col-sm-6{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    }
+}
+.awuko-logo{
+    display: block;
+    max-width: 550px;
+    margin: 0 auto 20px auto;
+    img{
+        display: inline-block;
+        width: 60px;
+    }
+    h4{
+        display: inline-block;
+        margin-left: 30px;
+    }
+    .logo-label{
+        display: inline-block;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        color: $brand-green;
+        width: 60%;
+        vertical-align: middle;
+        margin-left: 15px;
+        font-weight: 300;
+    }
+}
+
+.specs-wrap{
+    .specs-head{
+        font-size: 15px;
+        @include media-breakpoint-up(sm) {
+            font-size: 18px;
+        }
+        color: $brand-green;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .item{
+        color: $brand-brown;
+        line-height: 2rem;
+    }
+    .spec{
+        font-size: 12px;
+        @include media-breakpoint-up(sm) {
+            font-size: 13px;
+        }
+        font-weight: 300;
+        line-height: 2rem;
+        color: $brand-brown;
+    }
+}
+.specs-wrap-left{
+    padding: 0 15px 0 15px;
+    text-align: center;
+    @include media-breakpoint-up(sm) {
+        padding: 5px 0 20px 30px;
+        text-align: left;
+    }
+}
+.specs-wrap-top{
+    padding: 0 25px;
+    @include media-breakpoint-up(sm) {
+        padding: 0 10px;
+    }
+}
+
+.not-found{
+    text-align: center;
+    margin-top: 80px;
+    h1{
+        font-size: 8rem;
+        font-weight: 300;
+        color: $brand-green;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 600;
+        color: $brand-brown;
+    }
+}
+
+.prod-desc{
+    margin: 0 25px 40px;
+    @include media-breakpoint-up(md) {
+        margin: 0 25px 0 0;
+    }
+    h3{
+        font-size: 1.25rem;
+        color: $brand-green;
+    }
+
+}
+.container-cards .card {
+    margin: 20px;
+}

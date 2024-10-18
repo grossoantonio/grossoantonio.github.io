@@ -1,0 +1,61 @@
+.title-product {
+  color: $brand-green;
+  font-size: 2rem;
+  font-weight: 300;
+  //margin-top: 15px
+  margin-bottom: 15px;
+}
+
+.title-small {
+  @extend .title-product;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.title-xs {
+  @extend .title-product;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+@include media-breakpoint-down(sm) {
+  .title-product {
+    font-size: 1.75rem;
+  }
+
+  .title-small {
+    font-size: 1.5rem;
+  }
+
+  .title-xs {
+    font-size: 1.25rem;
+  }
+}
+
+.section-header {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+}
+
+// Basic Text Style
+
+p {
+  margin: 0 0 15px 0;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+hr {
+  border: solid #ddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 10px 0 30px;
+  height: 0;
+}

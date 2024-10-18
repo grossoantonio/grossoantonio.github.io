@@ -1,30 +1,18 @@
 ---
 layout: content-azienda-full
 title: Azienda
-intro: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan cursus purus vel elementum.
-    Mauris porta velit laoreet tristique gravida. Cras nec orci at felis eleifend aliquam non quis lacus.
-    Etiam vitae congue ligula. Donec sagittis quis lorem eget elementum. In tempus congue elit vitae accumsan.
-
-title2: La storia
 ---
 
+L’azienda Grosso Antonio nasce nel 1979.
 
+Grazie all’omonimo fondatore ha iniziato la sua attività specializzandosi esclusivamente nella vendita di macchinari per conceria in collaborazione ed in esclusività con alcuni dei più importanti costruttori di macchine a livello mondiale.
 
-Nunc elit magna, ultricies nec lacus sed, auctor dignissim lectus. Nullam euismod molestie aliquam.
-Donec vitae enim a nisi consequat elementum non vel nunc. Nunc in tincidunt massa, ac efficitur sem. Aenean ut tempor urna.
+<div style="text-align: center;" class="mb-3"><img class="xs-full-img" src="{{ site.url }}/assets/img/photo/azienda-3.jpg"></div>
 
-<img style="float: right;" class="xs-full-img" src="{{ site.url }}/assets/img/photo/azienda-2.jpg">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan cursus purus vel elementum.
-Mauris porta velit laoreet tristique gravida. Cras nec orci at felis eleifend aliquam non quis lacus.
-Etiam vitae congue ligula. Donec sagittis quis lorem eget elementum. In tempus congue elit vitae accumsan.
+Con all’esperienza maturata negli anni, per soddisfare le sempre più numerose richieste di supporto dei propri clienti e per ampliare i propri mercati, l’azienda è riuscita a svilupparsi offrendo un servizio sempre più completo.
 
-<img style="float: left;" class="xs-full-img" src="{{ site.url }}/assets/img/photo/azienda-3.jpg">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan cursus purus vel elementum.
-Mauris porta velit laoreet tristique gravida. Cras nec orci at felis eleifend aliquam non quis lacus.
-Etiam vitae congue ligula. Donec sagittis quis lorem eget elementum. In tempus congue elit vitae accumsan.
+Con l’appoggio di un magazzino ben fornito ha iniziato la commercializzazione e la distribuzione di pezzi di ricambio e accessori per conceria di ogni genere, parti meccaniche ed elettriche, macchinari usati e revisionati.
+
+<img style="float: left;" class="xs-full-img" src="{{ site.url }}/assets/img/photo/azienda-2.jpg">
 
 <img style="float: right;" class="xs-full-img" src="{{ site.url }}/assets/img/photo/photo-2.jpg">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan cursus purus vel elementum.
-Mauris porta velit laoreet tristique gravida. Cras nec orci at felis eleifend aliquam non quis lacus.
-Etiam vitae congue ligula. Donec sagittis quis lorem eget elementum. In tempus congue elit vitae accumsan.

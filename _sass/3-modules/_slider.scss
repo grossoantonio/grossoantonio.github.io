@@ -1,0 +1,36 @@
+.slider-wrap{
+    margin-bottom: 60px;
+}
+
+.slider-margin25 .slick-slide{
+    margin: 25px;
+}
+.slider-margin25{
+    margin-bottom: 15px;
+}
+.img-margin25{
+    margin: 15px;
+}
+.slider-small{
+    margin: 0 25px 25px;
+}
+@include media-breakpoint-up(sm) {
+    .img-margin25{
+        margin: 25px;
+    }
+}
+.slider-bkg-green img{
+    background-color: rgba(60,128,91,.2);
+}
+.slider-home img{
+    height: auto;
+}
+.slider-margin25 img{
+    height: auto;
+}
+.slider-bkg-green img{
+    height: auto;
+}
+.slider-wrap img{
+    height: auto;
+}

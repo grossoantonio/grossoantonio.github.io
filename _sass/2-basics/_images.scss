@@ -1,0 +1,15 @@
+img.xs-full-img {
+    width: 100%;
+    margin-bottom: 1.5rem;
+
+    @include media-breakpoint-up(sm) {
+        width: 40%;
+    }
+
+}
+
+img.img-left {
+    float: left;
+    width: 50%;
+    margin: 5px 15px 5px 0;
+}

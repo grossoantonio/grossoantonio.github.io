@@ -1,0 +1,62 @@
+.fixed-right{
+    display: none;
+
+}
+@include media-breakpoint-up(xl) {
+    .fixed-right{
+        display: block;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 220px;
+        height: 100%;
+        z-index: 2;
+        box-shadow: -3px 0 10px 0 #c2c2c2;
+        overflow: auto;
+        //padding-bottom: 200px;
+        .title-small{
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 1rem;
+            margin-top: 15px;
+        }
+        .logo-box{
+            margin: 15px;
+            height: 100px;
+            figure{
+                .img-logo{
+                    width: 130px;
+                    height: 55px;
+                    margin: 0 auto;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    &.logo_mosconi{
+                        background-image: url(/assets/img/logos/logo_mosconi.png);
+                    }
+                    &.logo_wega{
+                        background-image: url(/assets/img/logos/logo_wega.png);
+                    }
+                    &.logo_mm{
+                        background-image: url(/assets/img/logos/logo_mm.png);
+                    }
+                    &.logo_aletti{
+                        background-image: url(/assets/img/logos/logo_aletti.png);
+                    }
+                    &.logo_baggio{
+                        background-image: url(/assets/img/logos/logo_baggio.png);
+                    }
+                    &.log_new3p{
+                        background-image: url(/assets/img/logos/log_new3p.png);
+                    }
+                }
+                figcaption{
+                    text-align: center;
+                    font-size: 0.75rem;
+                    margin-top: 5px;
+                }
+            }
+        }
+    }
+}

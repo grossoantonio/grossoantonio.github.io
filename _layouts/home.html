@@ -1,52 +1,41 @@
 <!DOCTYPE html>
 <html lang="it">
-    <head>
+  <head>
 
-        {% include head.html %}
+    {% include head.html %}
 
-    </head>
+  </head>
 
-    <body>
-
-        <!--[if lt IE 9]>
-        <div id="warning">
-        <a href="#" class="closeThis">✕</a>
-        <div class="warningContent">
-          <span>!</span>
-          <h5 class="wHeading">update your browser</h5>
-          <p>Your browser is <strong>ancient</strong>! <a href="http://browsehappy.com/" target="_blank" >Upgrade</a> to a different browser to view this website usign moder technology</p>
-        </div>
-        </div>
-        <![endif]-->
-
-        <!-- NAVIGATION -->
-        {% include nav-mobile.html %}
-        {% include nav-desktop.html %}
+  <body>
 
 
-
-        <!-- MAIN CONTAINER -->
-        <div class="container-fluid home-main-container" id="main-container" >
-
-            <!-- HEADER -->
-            {% include header.html %}
+    <!-- NAVIGATION -->
+    {% include nav-mobile.html %}
+    {% include nav-desktop.html %}
 
 
-                    {{ content }}
+    <!-- MAIN CONTAINER -->
+    <div class="container-fluid home-main-container" id="main-container">
+
+      <!-- HEADER -->
+      {% include header.html %}
 
 
-        </div>
+      {{ content }}
 
-        <!-- ASIDE -->
-        {% include side-logos.html %}
 
-        <!-- FOOTER -->
-        {% include footer.html %}
+  </div>
 
-        <!-- Custom JS -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-        <script src="/assets/js/slick.min.js" type="text/javascript"></script>
-        <script src="/assets/js/functions.min.js" type="text/javascript"></script>
+    <!-- ASIDE -->
+  {% include side-logos.html %}
 
-    </body>
+    <!-- FOOTER -->
+    {% include footer.html %}
+
+    <!-- Custom JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="/assets/js/slick.min.js" type="text/javascript"></script>
+    <script src="/assets/js/functions.min.js" type="text/javascript"></script>
+
+  </body>
 </html>

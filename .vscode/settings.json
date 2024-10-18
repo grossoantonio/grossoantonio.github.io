@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "*.html": "liquid",
+    "*.markdown": "liquid",
+    "*.js": "liquid"
+  },
+  "[liquid]": {
+    "editor.defaultFormatter": "sissel.shopify-liquid",
+    "editor.formatOnSave": true
+  }
+  // other project settings
+}

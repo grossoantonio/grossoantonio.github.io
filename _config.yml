@@ -3,72 +3,76 @@ title: Grosso Antonio
 markdown: kramdown
 exclude: ["node_modules", "gulpfile.js", "package.json", "readme.md"]
 
+sass:
+  sass_dir: _sass # Default location for SCSS partials
+  style: compressed # Optional: set output style for CSS
+
 nav:
-    - title: "Home"
-      url: /index.html
-    - title: "Azienda"
-      url: /company.html
-    - title: "Cilindri Fotoincisi"
-      url: /photoengraved-rollers.html
-    - title: "Catalogo Cilindri"
-      url: /rollers-catalog.html
-    - title: "Carta Smeriglio"
-      url: /buffing-paper.html
-    - title: "Prodotti"
-      url: javascript:void(0)
-      sub-nav:
-          - title: Gomme
-            url: /rubbers.html
-          - title: Feltri
-            url: /felts.html
-          - title: Manicotto per tamponatrici
-            url: /carpet-belt.html
-          - title: Tappeto per Dinavac
-            url: /dinavac-carpet.html
-          - title: Pedana di sollevamento
-            url: /lift-tables.html
-          - title: Cabina Luci
-            url: /colour-hatching-cabinets.html
-    - title: Pezzi di ricambio
-      url: /spare-parts.html
-    - title: Macchinari Nuovi
-      url: /new.html
-    - title: Macchinari Usati
-      url: /used.html
-    - title: Contatti
-      url: /contacts.html
+  - title: "Home"
+    url: /index.html
+  - title: "Azienda"
+    url: /company.html
+  - title: "Cilindri Fotoincisi"
+    url: /photoengraved-rollers.html
+  - title: "Catalogo Cilindri"
+    url: /rollers-catalog.html
+  - title: "Carta Smeriglio"
+    url: /buffing-paper.html
+  - title: "Prodotti"
+    url: javascript:void(0)
+    sub-nav:
+      - title: Gomme
+        url: /rubbers.html
+      - title: Feltri
+        url: /felts.html
+      - title: Manicotto per tamponatrici
+        url: /carpet-belt.html
+      - title: Tappeto per Dinavac
+        url: /dinavac-carpet.html
+      - title: Pedana di sollevamento
+        url: /lift-tables.html
+      - title: Cabina Luci
+        url: /colour-hatching-cabinets.html
+  - title: Pezzi di ricambio
+    url: /spare-parts.html
+  - title: Macchinari Nuovi
+    url: /new.html
+  - title: Macchinari Usati
+    url: /used.html
+  - title: Contatti
+    url: /contacts.html
 
 nav_en:
-    - title: "Home"
-      url: /en/index.html
-    - title: "Company"
-      url: /en/company.html
-    - title: "Photoengraved Rollers"
-      url: /en/photoengraved-rollers.html
-    - title: "Rollers Catalog"
-      url: /en/rollers-catalog.html
-    - title: "Buffing Paper"
-      url: /en/buffing-paper.html
-    - title: "Products"
-      url: javascript:void(0)
-      sub-nav:
-          - title: Rubbers
-            url: /en/rubbers.html
-          - title: Felts
-            url: /en/felts.html
-          - title: Carpet Belt
-            url: /en/carpet-belt.html
-          - title: Dinavac Carpet
-            url: /en/dinavac-carpet.html
-          - title: Lift Tables
-            url: /en/lift-tables.html
-          - title: Colour Hatching Cabinets
-            url: /en/colour-hatching-cabinets.html
-    - title: Spare Parts
-      url: /en/spare-parts.html
-    - title: New Machinery
-      url: /en/new.html
-    - title: Second Hand Machines
-      url: /en/used.html
-    - title: Contacts
-      url: /en/contacts.html
+  - title: "Home"
+    url: /en/index.html
+  - title: "Company"
+    url: /en/company.html
+  - title: "Photoengraved Rollers"
+    url: /en/photoengraved-rollers.html
+  - title: "Rollers Catalog"
+    url: /en/rollers-catalog.html
+  - title: "Buffing Paper"
+    url: /en/buffing-paper.html
+  - title: "Products"
+    url: javascript:void(0)
+    sub-nav:
+      - title: Rubbers
+        url: /en/rubbers.html
+      - title: Felts
+        url: /en/felts.html
+      - title: Carpet Belt
+        url: /en/carpet-belt.html
+      - title: Dinavac Carpet
+        url: /en/dinavac-carpet.html
+      - title: Lift Tables
+        url: /en/lift-tables.html
+      - title: Colour Hatching Cabinets
+        url: /en/colour-hatching-cabinets.html
+  - title: Spare Parts
+    url: /en/spare-parts.html
+  - title: New Machinery
+    url: /en/new.html
+  - title: Second Hand Machines
+    url: /en/used.html
+  - title: Contacts
+    url: /en/contacts.html
