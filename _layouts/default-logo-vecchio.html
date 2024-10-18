@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+    <!-- NAVIGATION -->
+    {% include nav-mobile.html %} {% include nav-desktop.html %}
+
+    <!-- MAIN CONTAINER -->
+    <div class="container-fluid" id="main-container">
+      <!-- HEADER -->
+      {% include header.html %} {{ content }}
+  </div>
+
+    <!-- FOOTER -->
+    {% include footer.html %}
+
+    <!-- Custom JS -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="/assets/js/slick.min.js" type="text/javascript"></script>
+    <script src="/assets/js/functions.min.js" type="text/javascript"></script>
+  </body>
+</html>

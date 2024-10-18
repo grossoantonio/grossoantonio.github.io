@@ -3,29 +3,41 @@ layout: home
 ---
 
 <div class="container-fluid container-home">
-    <div class="row home-bg-box">
-        <div class="slider-home">
-            {% for img in page.img %}
-                <img class="img-fluid" src="/assets/img/photo/{{ img }}" alt="{{ img | replace: '-', ' ' | remove: '.jpg' }}" />
-            {% endfor %}
-        </div>
-        <div class="col-sm-4 col-1">
-            <div class="presentation-box box-cilindri">
-                <a href="{{page.link1}}"><h2 class="icon-battery-empty icon-rotate">{{page.title1}}</h2></a>
-                <p>{{page.p1}}</p>
-            </div>
-        </div>
-        <div class="col-sm-4 col-2">
-            <div class="presentation-box box-macchinari">
-                <a href="{{page.link2}}"><h2 class="icon-macchinari">{{page.title2}}</h2></a>
-                <p>{{page.p2}}</p>
-            </div>
-        </div>
-        <div class="col-sm-4 col-3">
-            <div class="presentation-box box-ricambio">
-                <a href="{{page.link3}}"><h2 class="icon-wrench ">{{page.title3}}</h2></a>
-                <p>{{page.p3}}</p>
-            </div>
-        </div>
+  <div class="row home-bg-box">
+    <div class="slider-home">
+      {% for img in page.img %}
+        <img
+          class="img-fluid"
+          src="/assets/img/photo/{{ img }}"
+          alt="{{ img | replace: '-', ' ' | remove: '.jpg' }}" />
+      {% endfor %}
     </div>
+
+  </div>
+  <div class="row home-bg-box">
+    <div class="col-12 col-sm-4">
+      <div class="presentation-box box-cilindri">
+        <a href="{{page.link1}}">
+          <h2 class="icon-battery-empty icon-rotate">{{ page.title1 }}</h2>
+        </a>
+        <p>{{ page.p1 }}</p>
+      </div>
+    </div>
+    <div class="col-12 col-sm-4">
+      <div class="presentation-box box-macchinari">
+        <a href="{{page.link2}}">
+          <h2 class="icon-macchinari">{{ page.title2 }}</h2>
+        </a>
+        <p>{{ page.p2 }}</p>
+      </div>
+    </div>
+    <div class="col-12 col-sm-4">
+      <div class="presentation-box box-ricambio">
+        <a href="{{page.link3}}">
+          <h2 class="icon-wrench ">{{ page.title3 }}</h2>
+        </a>
+        <p>{{ page.p3 }}</p>
+      </div>
+    </div>
+  </div>
 </div>
