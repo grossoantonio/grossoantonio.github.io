@@ -3,45 +3,65 @@ layout: default
 ---
 
 <div class="container">
-    <section class="white-bkg">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="slider-auto slider-margin25">
-                    {% for img in page.img %}
-                        <img class="img-fluid" src="/assets/img/photo/{{ img }}" alt="{{page.img | replace: '-', ' ' | remove: ".jpg" }}" />
-                    {% endfor %}
-                </div>
-                <div class="row specs-wrap specs-wrap-left">
-                    <div class="col-xs-4">
-                        <div class="specs-head">
-                            {{page.specs.title}}
-                        </div>
-                        {% for m in page.specs.m-list %}
-                            <div class="item">{{m}}</div>
-                        {% endfor %}
-                    </div>
-                    <div class="col-xs-8">
-                        <div class="specs-head">
-                            {{page.specs.h}}
-                        </div>
-                        {% for s in page.specs.s-list %}
-                            <div class="spec">{{s}}</div>
-                        {% endfor %}
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="side-description text-container">
-                    {% if page.logo %}
-                    <div class="awuko-logo">
-                        <img class="img-fluid" src="/assets/img/awuko_logo.png" alt="" />
-                        <span class="logo-label">{{page.logo}}</span>
-                    </div>
-                    {% endif %}
-                    <h1 class="title-product title-small">{{page.title}}</h1>
-                    {{content}}
-                </div>
-            </div>
+  <section class="white-bkg">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="slider-auto slider-margin25">
+          {% for img in page.img %}
+            <img
+              class="img-fluid"
+              src="/assets/img/photo/{{ img }}"
+              alt="{{page.img | replace: '-', ' ' | remove: ".jpg" }}" />
+          {% endfor %}
         </div>
-    </section>
+
+      </div>
+      <div class="col-md-6">
+        <div class="side-description text-container">
+          {% if page.logo %}
+            <div class="awuko-logo">
+              <img
+                class="img-fluid"
+                src="/assets/img/awuko_logo.png"
+                alt="" />
+              <span class="logo-label">{{ page.logo }}</span>
+            </div>
+          {% endif %}
+          <h1 class="title-product title-small">{{ page.title }}</h1>
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    <div class="row specs-wrap specs-wrap-left">
+      <div class="col-xs-3 col-lg-2">
+        <div class="specs-head">
+          {{ page.specs.title }}
+        </div>
+        {% for m in page.specs.m-list %}
+          <div class="item">{{ m }}</div>
+        {% endfor %}
+      </div>
+      <div class="col-xs-4 col-lg-3">
+        <div class="specs-head">
+          {{ page.specs.h }}
+        </div>
+        {% for s in page.specs.s-list %}
+          <div class="spec">{{ s }}</div>
+        {% endfor %}
+      </div>
+      <div class="col-xs-5 col-lg-4">
+        <div class="specs-head">
+          {{ page.specs.nastri }}
+        </div>
+        {% for nastro in page.specs.nastri-list %}
+          <div class="spec">{{ nastro }}</div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="row specs-wrap specs-wrap-left">
+      <div class="col-xs-12">
+        <small class="text-left">{{ page.note }}</small>
+      </div>
+    </div>
+  </section>
 </div>

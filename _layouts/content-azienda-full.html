@@ -9,26 +9,29 @@ layout: default
       <div class="col-xs-12">
         <div class="text-container">
           <h1 class="title-product title-small">{{ page.title }}</h1>
-          {{page.intro | textilize}}
+          {{ page.intro | textilize }}
         </div>
       </div>
     </div>
     {% if page.img %}
-    <div class="row">
-      <div class="col-xs-12">
-        <div class="slider-auto slider-margin25 slider-bkg-green">
-          {% for img in page.img %}
-          <img class="img-fluid" src="/assets/img/photo/{{ img }}" alt="{{ img | replace: '-', ' ' | remove: '.jpg' }}" />
-          {% endfor %}
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="slider-auto  slider-margin25 slider-bkg-green">
+            {% for img in page.img %}
+              <img
+                class="img-fluid"
+                src="/assets/img/photo/{{ img }}"
+                alt="{{ img | replace: '-', ' ' | remove: '.jpg' }}" />
+            {% endfor %}
+          </div>
         </div>
       </div>
-    </div>
     {% endif %}
     <div class="row">
       <div class="col-xs-12">
         <div class="text-container">
-          <h3 class="title-product title-small">{{ page.title2 }}</h3>
-          {{content}}
+          {% comment %} <h3 class="title-product title-small">{{ page.title2 }}</h3> {% endcomment %}
+          {{ content }}
         </div>
       </div>
     </div>

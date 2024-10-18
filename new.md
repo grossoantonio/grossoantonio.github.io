@@ -4,4 +4,4 @@ title: Macchinari Nuovi
 h1: Macchinari per conceria nuovi
 ---
 
-Siamo i rappresentanti dei seguenti costruttori:
+We are the exclusive representatives for Tuscany of the following manufacturers:

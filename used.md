@@ -23,5 +23,3 @@ modello, idonei alla lavorazione delle pelli nelle varie fasi del processo produ
 Possiamo fornire il macchinario usato, visto e piaciuto nelle condizioni in cui si trova, oppure
 completamente revisionato con sostituzione delle parti meccaniche, elettriche e di normale usura;
 riverniciato a nuovo.
-
-Di seguito i macchinari usati, attualmente disponibili a magazzino.
