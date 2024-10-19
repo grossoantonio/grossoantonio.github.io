@@ -20,10 +20,6 @@
       max-width: 450px;
     }
   }
-
-
-
-
 }
 
 @include media-breakpoint-down(md) {
@@ -41,5 +37,15 @@
     padding-left: 50px;
     padding-right: 5px;
     background-color: rgba(#bef2ce, 0.4);
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  body.map-body {
+    .container-header {
+      position: relative;
+      background-color: rgba(#ffffff, 0.8);
+      z-index: 10;
+    }
   }
 }

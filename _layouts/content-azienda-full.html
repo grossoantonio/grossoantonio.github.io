@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-logo-doppio
 ---
 
 <div class="bkg-img-azienda"></div>
@@ -32,8 +32,22 @@ layout: default
         <div class="text-container">
           {% comment %} <h3 class="title-product title-small">{{ page.title2 }}</h3> {% endcomment %}
           {{ content }}
+          <section class="features text-center fw-bold my-5 pb-3">
+            <div class="row">
+              {% for item in page.features %}
+                <div class="col-4">
+                  <img
+                    src="/assets/img/rombo.svg"
+                    alt="rombo"
+                    width="20">
+                  <div class="mt-3">{{ item | textilize }}</div>
+                </div>
+              {% endfor %}
+            </div>
+          </section>
         </div>
       </div>
     </div>
   </section>
+
 </div>

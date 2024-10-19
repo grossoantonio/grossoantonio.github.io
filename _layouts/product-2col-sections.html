@@ -2,50 +2,58 @@
 layout: default
 ---
 
+{% include banner-cta.html %}
+
 <div class="container">
-    {% for section in page.sections %}
+  {% for section in page.sections %}
     <section class="white-bkg">
-        <div class="row">
-            <div class="{% if section.img %} col-md-6 col-md-push-6 {% endif %} {% unless section.img  %} col-xs-12 {% endunless %}">
-                <div class="side-description text-container">
-                    {% if page.logo %}
-                    <div class="awuko-logo">
-                        <img class="img-fluid" src="/assets/img/awuko_logo.png" alt="" />
-                        <span class="logo-label">{{page.logo}}</span>
-                    </div>
-                    {% endif %}
-                    <h1 class="title-product title-small">{{section.title}}</h1>
-                    <p>
-                        {{ section.description }}
-                    </p>
-                </div>
-            </div>
-            {% if section.img %}
-            <div class="col-md-6 col-md-pull-6">
-                <div class="slider-auto slider-margin25">
-                    {% for img in section.img %}
-                        <img class="img-fluid" src="/assets/img/photo/{{ img }}" alt="{{page.img | replace: '-', ' ' | remove: ".jpg" }}" />
-                    {% endfor %}
-                </div>
-                {% if section.specs %}
-                <div class="row specs-wrap specs-wrap-left">
-                        <div class="specs-wrap specs-wrap-top">
-                            {% for spec in section.specs %}
-                                <div class="specs-head">
-                                    {{spec.title}}
-                                </div>
-                                {% for item in spec.list %}
-                                <div class="spec">
-                                    {{item}}
-                                </div>
-                                {% endfor %}
-                            {% endfor %}
-                        </div>
-                </div>
-                {% endif %}
-            </div>
+      <div class="row">
+        <div class="{% if section.img %} col-md-6 col-md-push-6 {% endif %} {% unless section.img  %} col-xs-12 {% endunless %}">
+          <div class="side-description text-container">
+            {% if page.logo %}
+              <div class="awuko-logo">
+                <img
+                  class="img-fluid"
+                  src="/assets/img/awuko_logo.png"
+                  alt="" />
+                <span class="logo-label">{{ page.logo }}</span>
+              </div>
             {% endif %}
+            <h1 class="title-product title-small">{{ section.title }}</h1>
+            <p>
+              {{ section.description }}
+            </p>
+          </div>
         </div>
+        {% if section.img %}
+          <div class="col-md-6 col-md-pull-6">
+            <div class="slider-auto slider-margin25">
+              {% for img in section.img %}
+                <img
+                  class="img-fluid"
+                  src="/assets/img/photo/{{ img }}"
+                  alt="{{page.img | replace: '-', ' ' | remove: ".jpg" }}" />
+              {% endfor %}
+            </div>
+            {% if section.specs %}
+              <div class="row specs-wrap specs-wrap-left">
+                <div class="specs-wrap specs-wrap-top">
+                  {% for spec in section.specs %}
+                    <div class="specs-head">
+                      {{ spec.title }}
+                    </div>
+                    {% for item in spec.list %}
+                      <div class="spec">
+                        {{ item }}
+                      </div>
+                    {% endfor %}
+                  {% endfor %}
+                </div>
+              </div>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
     </section>
-    {% endfor %}
+  {% endfor %}
 </div>

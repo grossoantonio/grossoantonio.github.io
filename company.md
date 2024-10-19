@@ -1,6 +1,10 @@
 ---
 layout: content-azienda-full
 title: Azienda
+features:
+  - COMPETENZA
+  - SERVIZIO
+  - SUPPORTO POST-VENDITA
 ---
 
 L’azienda Grosso Antonio nasce nel 1979.
@@ -17,7 +21,3 @@ Con l’appoggio di un magazzino ben fornito ha iniziato la commercializzazione 
   <img class="xs-full-img" src="{{ site.url }}/assets/img/photo/azienda-2.jpg">
   <img class="xs-full-img" src="{{ site.url }}/assets/img/photo/photo-2.jpg">
 </div>
-
-- COMPETENZA
-- SERVIZIO
-- SUPPORTO POST-VENDITA

@@ -1,52 +1,54 @@
 ---
 layout: google-maps-api
 ---
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-xs-12">
-            <div class="full-screen-map" id="map">
-
-            </div>
-        </div>
+<div class="container-fluid map-container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="full-screen-map" id="map"></div>
     </div>
+  </div>
 </div>
 <div class="container contacts-wrap">
-    <div class="row">
-        <div class="col-sm-6 text-sm-left text-xs-center">
-
-            <h1 class="title-small m-b-2">{{page.contacts}} <span class="icon-notebook"></span></h1>
-            <p class="icon-envelope">
-                 &nbsp;
-                <a
-                    class='email
-                    href="mailto:x@y"
-                    '
-                    href
-                     =	'
-                    &#x20;ma&#105;&#x6c;&#x74;o&#x3A;&#37;&#50;&#48;i&#x6E;&#37;&#x36;&#x36;o%&#x34;&#x30;&#103;&#x72;&#x6f;%7&#x33;&#115;%&#54;&#102;&#x61;%6&#101;t&#x6F;&#37;&#x36;&#x65;&#x25;69%&#x36;f&#x25;&#x32;&#x65;i&#37;&#55;&#52;?
-                    '>&#x69;nfo&#64;g&#114;o&#x73;s<!--
-                    mailto:abuse@hotmail.com
-                    </a>
-                    -->&shy;&#111;&#97;&#x6e;to&#x6e;i&#x6f;&#x2e;&#x69;&#116;
-                </a>
-            </p>
-            <p class="icon-phone">
-                 &nbsp; Tel. (+39) 0571 486090 (r.a.)
-
-            </p>
-            <p class="icon-print">
-                 &nbsp; Fax (+39) 0571 471335
-            </p>
-        </div>
-        <div class="col-sm-6 text-sm-right text-xs-center">
-
-            <h1 class="title-small m-b-2 icon-map">&nbsp; {{page.address}}</h1>
-            <p class="">
-                Via del Salice, 6/8 <br>
-                Zona Ind. Macrolotto <br>
-                56022 Castelfranco di Sotto <br>
-                Pisa, Italy <br>
-            </p>
-        </div>
+  <div class="row justify-content-between mb-4">
+    <div class="col-sm-6 col-md-5">
+      <img
+        class="logo mb-4"
+        src="/assets/img/grosso-antonio-logo.svg"
+        alt="Grosso Antonio logo">
+      <p class="icon-envelope-o ms-2">
+        <a class="email-link" href="mailto: info@grossoantonio.it">info@grossoantonio.it</a><br>
+      </p>
     </div>
+    <div class="col-sm-6 col-md-5">
+      <img
+        class="logo"
+        src="/assets/img/grosso-antonio-2-logo.svg"
+        alt="Grosso Antonio 2.0 logo">
+      <p class="icon-envelope-o ms-2">
+        <a class="email-link" href="mailto: grossoantonio2.0srl@grossoantonio.it">grossoantonio2.0srl@grossoantonio.it</a>
+      </p>
+    </div>
+  </div>
+  <div class="row justify-content-between">
+    <div class="col-sm-6 col-md-5 text-sm-left text-xs-center">
+      <h1 class="title-small m-b-2">{{ page.contacts }}
+        <span class="icon-notebook"></span>
+      </h1>
+      <p class="icon-phone">
+        Tel. (+39) 0571 486090 (r.a.)
+      </p>
+      <p class="icon-print">
+        Fax (+39) 0571 471335
+      </p>
+    </div>
+    <div class="col-sm-6 col-md-5 text-sm-right text-xs-center">
+      <h1 class="title-small m-b-2 icon-map">{{ page.address }}</h1>
+      <p class="">
+        Via del Salice, 6/8 <br>
+        Zona Ind. Macrolotto <br>
+        56022 Castelfranco di Sotto <br>
+        Pisa, Italy <br>
+      </p>
+    </div>
+  </div>
 </div>

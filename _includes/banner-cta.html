@@ -1,0 +1,38 @@
+<section class="banner-cta fixed-bottom bg-white p-2">
+  <div class="d-flex flex-row justify-content-center">
+    <div class="p-3 me-5">
+      <img
+        class="rombo"
+        src="/assets/img/rombo.svg"
+        alt="rombo logo"
+        width="30">
+    </div>
+    <div class="text-center">
+      <div class="mb-2">
+        <small class=" fst-italic">
+          {% if page.url contains '/en/' %}
+            {{ site.banner_cta_en_1 }}
+          {% else %}
+            {{ site.banner_cta_it_1 }}
+          {% endif %}
+        </small>
+      </div>
+      <a
+        class="btn btn-primary text-white btn-sm"
+        href="mailto: grossoantonio2.0srl@grossoantonio.it"
+        role="button"
+        target="_blank">grossoantonio2.0srl@grossoantonio.it</a>
+      <div class="mt-2">
+        <small class=" fst-italic">
+          {% if page.url contains '/en/' %}
+            {{ site.banner_cta_en_2 }}
+          {% else %}
+            {{ site.banner_cta_it_2 }}
+          {% endif %}
+        </small>
+      </div>
+    </div>
+  </div>
+
+
+</section>

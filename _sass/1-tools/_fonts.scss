@@ -2,8 +2,8 @@
 
 @font-face {
   font-family: "icons-grosso";
-  src:url("../fonts/icons-grosso.eot");
-  src:url("../fonts/icons-grosso.eot?#iefix") format("embedded-opentype"),
+  src: url("../fonts/icons-grosso.eot");
+  src: url("../fonts/icons-grosso.eot?#iefix") format("embedded-opentype"),
     url("../fonts/icons-grosso.woff") format("woff"),
     url("../fonts/icons-grosso.ttf") format("truetype"),
     url("../fonts/icons-grosso.svg#icons-grosso") format("svg");
@@ -38,38 +38,50 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   vertical-align: text-bottom;
+  margin-right: .25rem;
+  vertical-align: middle;
 }
 
 .icon-angle-right:before {
   content: "\61";
 }
+
 .icon-angle-left:before {
   content: "\62";
 }
+
 .icon-phone:before {
   content: "\63";
 }
+
 .icon-print:before {
   content: "\64";
 }
+
 .icon-map:before {
   content: "\66";
 }
+
 .icon-wrench:before {
   content: "\67";
 }
+
 .icon-envelope-o:before {
   content: "\65";
 }
+
 .icon-battery:before {
   content: "\6b";
 }
+
 .icon-notebook:before {
   content: "\69";
 }
+
 .icon-battery-empty:before {
   content: "\68";
 }
+
 .icon-minus:before {
   content: "\6a";
 }

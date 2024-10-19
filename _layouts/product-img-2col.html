@@ -2,35 +2,40 @@
 layout: default
 ---
 
+
 <div class="container">
-    <section class="white-bkg">
-        <div class="row ">
-            <div class="col-sm-12">
-                <div class="text-container">
-                    <h1 class="title-product">{{page.title}}</h1>
-                    {{content}}
-                </div>
-            </div>
+  {% include banner-cta.html %}
+  <section class="white-bkg">
+    <div class="row ">
+      <div class="col-sm-12">
+        <div class="text-container">
+          <h1 class="title-product">{{ page.title }}</h1>
+          {{ content }}
         </div>
-        {% for row in page.row %}
-        <div class="row">
-            <div class="col-md-6">
-                <div class="slider-auto slider-small slider-bkg-green">
-                    {% for img in row.img %}
-                        <img class="img-fluid" src="/assets/img/photo/{{ img }}" alt="{{ img | replace: '-', ' ' | remove: ".jpg" }}" />
-                    {% endfor %}
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="prod-desc">
-                    <h3>{{ row.title | textilize }}</h3>
-                    <p>
-                        {{ row.description | textilize }}
-                    </p>
-                    <hr class="hidden-md-up">
-                </div>
-            </div>
+      </div>
+    </div>
+    {% for row in page.row %}
+      <div class="row">
+        <div class="col-md-6">
+          <div class="slider-auto slider-small slider-bkg-green">
+            {% for img in row.img %}
+              <img
+                class="img-fluid"
+                src="/assets/img/photo/{{ img }}"
+                alt="{{ img | replace: '-', ' ' | remove: ".jpg" }}" />
+            {% endfor %}
+          </div>
         </div>
-        {% endfor %}
-    </section>
+        <div class="col-md-6">
+          <div class="prod-desc">
+            <h3>{{ row.title | textilize }}</h3>
+            <p>
+              {{ row.description | textilize }}
+            </p>
+            <hr class="hidden-md-up">
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </section>
 </div>

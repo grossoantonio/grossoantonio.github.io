@@ -2,6 +2,9 @@ name: Grosso Antonio
 title: Grosso Antonio
 markdown: kramdown
 exclude: ["node_modules", "gulpfile.js", "package.json", "readme.md"]
+url: "https://grossoantonio.it" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
 
 sass:
   sass_dir: _sass # Default location for SCSS partials
@@ -76,3 +79,8 @@ nav_en:
     url: /en/used.html
   - title: Contacts
     url: /en/contacts.html
+
+banner_cta_it_1: Stai cercando un ricambio/accessorio specifico per conceria? Inviaci la tua richiesta
+banner_cta_it_2: Saremo pronti a fornirti quanto richiesto nel più breve tempo possibile.
+banner_cta_en_1: Are you looking for a specific spare part/accessory for tannery? Send us your request
+banner_cta_en_2: We will be ready to provide you with what you request as soon as possible.

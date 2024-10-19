@@ -1,30 +1,23 @@
 ---
 layout: content-azienda-full
 title: Company
-intro: |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan cursus purus vel elementum.
-    Mauris porta velit laoreet tristique gravida. Cras nec orci at felis eleifend aliquam non quis lacus.
-    Etiam vitae congue ligula. Donec sagittis quis lorem eget elementum. In tempus congue elit vitae accumsan.
-
-title2: The story
+features:
+  - EXPERTISE
+  - SERVICE
+  - AFTER-SALES SUPPORT
 ---
 
+The Grosso Antonio company was founded in 1979.
 
+Thanks to the founder of the same name, it began its activity specializing exclusively in the sale of tanning machinery in collaboration and exclusivity with some of the most important machine manufacturers worldwide.
 
-Nunc elit magna, ultricies nec lacus sed, auctor dignissim lectus. Nullam euismod molestie aliquam.
-Donec vitae enim a nisi consequat elementum non vel nunc. Nunc in tincidunt massa, ac efficitur sem. Aenean ut tempor urna.
+<div style="text-align: center;" class="mb-3"><img class="xs-full-img" src="{{ site.url }}/assets/img/photo/azienda-3.jpg"></div>
 
-<img style="float: right;" class="xs-full-img" src="{{ site.url }}/assets/img/photo/azienda-2.jpg">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan cursus purus vel elementum.
-Mauris porta velit laoreet tristique gravida. Cras nec orci at felis eleifend aliquam non quis lacus.
-Etiam vitae congue ligula. Donec sagittis quis lorem eget elementum. In tempus congue elit vitae accumsan.
+With the experience gained over the years, to satisfy the ever-increasing requests for support from its customers and to expand its markets, the company has managed to develop by offering an increasingly complete service.
 
-<img style="float: left;" class="xs-full-img" src="{{ site.url }}/assets/img/photo/azienda-3.jpg">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan cursus purus vel elementum.
-Mauris porta velit laoreet tristique gravida. Cras nec orci at felis eleifend aliquam non quis lacus.
-Etiam vitae congue ligula. Donec sagittis quis lorem eget elementum. In tempus congue elit vitae accumsan.
+With the support of a well-stocked warehouse, it began marketing and distributing spare parts and accessories for tanneries of all kinds, mechanical and electrical parts, used and overhauled machinery.
 
-<img style="float: right;" class="xs-full-img" src="{{ site.url }}/assets/img/photo/photo-2.jpg">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris accumsan cursus purus vel elementum.
-Mauris porta velit laoreet tristique gravida. Cras nec orci at felis eleifend aliquam non quis lacus.
-Etiam vitae congue ligula. Donec sagittis quis lorem eget elementum. In tempus congue elit vitae accumsan.
+<div style="text-align: center;" class="mb-3">
+  <img class="xs-full-img" src="{{ site.url }}/assets/img/photo/azienda-2.jpg">
+  <img class="xs-full-img" src="{{ site.url }}/assets/img/photo/photo-2.jpg">
+</div>
