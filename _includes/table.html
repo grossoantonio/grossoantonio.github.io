@@ -1,0 +1,21 @@
+<div class="table-responsive m-3">
+  <table class="table table-striped">
+    {% for row in site.data.carte %}
+
+      {% if forloop.first %}
+        <thead>
+          <tr>
+            {% for item in row %}
+              <th scope="col">{{ item[0] }}</th>
+            {% endfor %}
+          </tr>
+        </thead>
+      {% endif %}
+
+      {% tablerow item in row %}
+        {{ item[1] }}
+      {% endtablerow %}
+
+    {% endfor %}
+  </table>
+</div>
