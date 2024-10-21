@@ -13,7 +13,7 @@ Grazie all’omonimo fondatore ha iniziato la sua attività specializzandosi esc
 
 <div style="text-align: center;" class="mb-3"><img class="xs-full-img" src="{{ site.url }}/assets/img/photo/azienda-3.jpg"></div>
 
-Con all’esperienza maturata negli anni, per soddisfare le sempre più numerose richieste di supporto dei propri clienti e per ampliare i propri mercati, l’azienda è riuscita a svilupparsi offrendo un servizio sempre più completo.
+Con l’esperienza maturata negli anni, per soddisfare le sempre più numerose richieste di supporto dei propri clienti e per ampliare i propri mercati, l’azienda è riuscita a svilupparsi offrendo un servizio sempre più completo.
 
 Con l’appoggio di un magazzino ben fornito ha iniziato la commercializzazione e la distribuzione di pezzi di ricambio e accessori per conceria di ogni genere, parti meccaniche ed elettriche, macchinari usati e revisionati.
 

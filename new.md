@@ -1,7 +1,7 @@
 ---
 layout: content-nuovo
 title: Macchinari Nuovi
-h1: Macchinari per conceria nuovi
+h1: Macchinari nuovi per conceria
 ---
 
-We are the exclusive representatives for Tuscany of the following manufacturers:
+Siamo i rappresentanti con esclusiva per la Toscana dei seguenti costruttori:

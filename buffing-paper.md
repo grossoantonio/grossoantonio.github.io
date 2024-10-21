@@ -7,6 +7,12 @@ img:
   - carta-3.jpg
   - carta-4.jpg
   - carta-5.jpg
+  - "carta-smeriglio/ROTOLO-OK96L.png"
+  - "carta-smeriglio/KP20-NASTRO-AWUKO.jpg"
+  - "carta-smeriglio/KP43-NASTRO-AWUKO.jpg"
+  - "carta-smeriglio/KP80-NASTRO-AWUKO.png"
+  - "carta-smeriglio/NASTRO-SP23.png"
+  - "carta-smeriglio/NASTRO-SP40F.jpg"
 specs:
   title: Modello
   m-list:
@@ -18,28 +24,28 @@ specs:
     - KP43E
     - SP23F
     - Vellutata rossa
-  h: Altezze (mm)
+  h: Altezze rotoli
   s-list:
-    - 610, 330, 255
-    - 610, 330, 255
-    - "610"
-    - 610*
+    - MM 610, 330, 255
+    - MM 610, 330, 255
+    - "MM 610"
+    - MM 610*
     - "-"
     - "-"
     - "-"
-    - "610"
-  nastri: Dimensione Nastro (mm)
+    - "MM 610"
+  nastri: Dimensione nastro
   nastri-list:
-    - 1740/1750X3200
-    - 1900X3200
+    - MM 1740/50X3200
+    - MM 1900X3200
     - "-"
     - "-"
-    - 1380X2620
-    - 1400X3200
-    - 2150X3200
+    - MM 1380X2620
+    - MM 1400X3200
+    - MM 2150X3200
     - "-"
 logo: Esclusivista con deposito
-note: "NOTE: Su richiesta possibilità di personalizzare misure <br>*Carta telata di cotone per lucidatura pelli"
+note: "<b>NOTE</b>: Su richiesta siamo in grado di fornire nastri AWUKO con misure fuori standard."
 ---
 
 Siamo i distributori del Centro Italia della Carta Smeriglio per conceria marca AWUKO. Forniamo carta originale, prodotta e confezionata, per il settore conciario, dalla ditta Cumi Awuko Abrasives Gmbh, proprietaria del marchio Awuko.

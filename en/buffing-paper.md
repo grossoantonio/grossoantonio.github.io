@@ -39,9 +39,9 @@ specs:
     - 2150X3200
     - "-"
 logo: Exclusive supplier
-note: "NOTE: Possibility to customize sizes upon request. <br>*Cotton canvas paper for leather polishing"
+note: "<b>NOTE:</b> Upon request, we are able to supply AWUKO belts with non-standard sizes."
 ---
 
-We are the distributors of AWUKO Sandpaper for tanneries in central Italy. We provide original paper, produced and packed for the tanning industry by the company Cumi Awuko Abrasives Gmbh, which owns the brand AWUKO.
+We are the distributors of AWUKO buffing paper for tanneries in central Italy. We provide original paper, produced and packed for the tanning industry by the company Cumi Awuko Abrasives Gmbh, which owns the brand AWUKO.
 
-We are glad to offer our experience and collaboration for any kind of demand, ensuring quality and on-time deliveries thanks to the availability of sandpaper of any type at our warehouse.
+We are glad to offer our experience and collaboration for any kind of demand, ensuring quality and on-time deliveries thanks to the availability of buffing paper of any type at our warehouse.
