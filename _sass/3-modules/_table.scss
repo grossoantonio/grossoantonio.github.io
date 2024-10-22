@@ -12,4 +12,13 @@ table.table {
   td.col1 {
     font-weight: 400;
   }
+
+  th {
+    text-wrap: nowrap;
+  }
+
+  td.col2,
+  td.col3 {
+    text-wrap: nowrap;
+  }
 }
