@@ -11,7 +11,7 @@ sections:
           - Gemata; Rollmac; Incoma; 3P
       - title: Working width
         list:
-          - MM1800; MM2200 <br> *Various sizes available on request
+          - MM1800; MM2200 <br> <b>*Other sizes available on request</b>
     img:
       - manicotto-1.png
       - manicotto-3.jpg

@@ -2,6 +2,11 @@
 layout: product-slider
 title: Pedane di Sollevamento
 img:
+  - /pedana/pedana-01.jpg
+  - /pedana/pedana-02.jpg
+  - /pedana/pedana-03.jpg
+  - /pedana/pedana-04.jpg
+  - /pedana/pedana-05.jpg
 ---
 
 Disponiamo di una vasta gamma di piattaforme elevatrici che rappresentano una soluzione ottimale

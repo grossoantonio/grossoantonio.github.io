@@ -2,14 +2,14 @@
 layout: product-2col-sections
 title: Rubbers
 sections:
-  - title: Natural and synthetic rubber
+  - title: Natural and synthetic rubbers
     description: |
       Our company has a wide range of rubber items used in the tanning sector. Each of them has a different use. <br><br>
 
       For the embossing machines that emboss the leathers we use various types of rubber, both natural and synthetic.
       Available in various compounds for different applications and in various thicknesses depending on the type of leather to be worked, the design of the plate to be embossed and depending on the specific needs of the customer. <br><br>
 
-      We also have rubbers used to make carpets for staking and special rubbers that are used in the buffing process, to clean the buffing paper from the  dust, allowing a saving of the paper and a constant cut until the end of the production, avoiding as much time wasted on the paper change.
+      We also have rubbers used to make conveyor belt for staking and special rubbers that are used in the buffing process, to clean the buffing paper from the  dust, allowing a saving of the paper and a constant cut until the end of the production, avoiding as much time wasted on the paper change.
 
   - title: CARBOROSSA
     description: |

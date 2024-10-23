@@ -15,9 +15,17 @@
       <div class="mb-2">
         <small class=" fst-italic">
           {% if page.url contains '/en/' %}
-            {{ site.banner_cta_en_1 }}
+            {% if page.url contains '/used' %}
+              {{ site.banner_cta_usato_en_1 }}
+            {% else %}
+              {{ site.banner_cta_en_1 }}
+            {% endif %}
           {% else %}
-            {{ site.banner_cta_it_1 }}
+            {% if page.url contains '/used' %}
+              {{ site.banner_cta_usato_it_1 }}
+            {% else %}
+              {{ site.banner_cta_it_1 }}
+            {% endif %}
           {% endif %}
         </small>
       </div>

@@ -2,17 +2,17 @@
 layout: product-2col
 title: Carta Smeriglio
 img:
-  - carta-2.jpg
   - carta-1.jpg
+  - carta-2.jpg
   - carta-3.jpg
   - carta-4.jpg
-  - carta-5.jpg
   - "carta-smeriglio/ROTOLO-OK96L.png"
-  - "carta-smeriglio/KP20-NASTRO-AWUKO.jpg"
+  - carta-5.jpg
   - "carta-smeriglio/KP43-NASTRO-AWUKO.jpg"
   - "carta-smeriglio/KP80-NASTRO-AWUKO.png"
-  - "carta-smeriglio/NASTRO-SP23.png"
+  - "carta-smeriglio/KP20-NASTRO-AWUKO.jpg"
   - "carta-smeriglio/NASTRO-SP40F.jpg"
+  - "carta-smeriglio/NASTRO-SP23.png"
 specs:
   title: Modello
   m-list:

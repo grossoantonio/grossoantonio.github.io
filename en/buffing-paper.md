@@ -1,12 +1,18 @@
 ---
 layout: product-2col
-title: Tanning Abrasive Paper
+title: Original AWUKO buffing paper
 img:
-  - carta-2.jpg
   - carta-1.jpg
+  - carta-2.jpg
   - carta-3.jpg
   - carta-4.jpg
+  - "carta-smeriglio/ROTOLO-OK96L.png"
   - carta-5.jpg
+  - "carta-smeriglio/KP43-NASTRO-AWUKO.jpg"
+  - "carta-smeriglio/KP80-NASTRO-AWUKO.png"
+  - "carta-smeriglio/KP20-NASTRO-AWUKO.jpg"
+  - "carta-smeriglio/NASTRO-SP40F.jpg"
+  - "carta-smeriglio/NASTRO-SP23.png"
 specs:
   title: Model
   m-list:
@@ -39,7 +45,7 @@ specs:
     - 2150X3200
     - "-"
 logo: Exclusive supplier
-note: "<b>NOTE:</b> Upon request, we are able to supply AWUKO belts with non-standard sizes."
+note: "<b>NOTES:</b> Upon request, we are able to supply AWUKO buffing belts with non-standard sizes."
 ---
 
 We are the distributors of AWUKO buffing paper for tanneries in central Italy. We provide original paper, produced and packed for the tanning industry by the company Cumi Awuko Abrasives Gmbh, which owns the brand AWUKO.

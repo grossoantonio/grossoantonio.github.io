@@ -31,11 +31,11 @@ body {
 	}
 }
 
-@include media-breakpoint-up(xl) {
-	#main-container.home-main-container {
-		padding-right: 220px;
-	}
-}
+// @include media-breakpoint-up(xl) {
+// 	#main-container.home-main-container {
+// 		padding-right: 220px;
+// 	}
+// }
 
 footer {
 	position: absolute;

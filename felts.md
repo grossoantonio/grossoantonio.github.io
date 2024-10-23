@@ -14,7 +14,7 @@ sections:
 
   - title: Feltro antipolvere e antistatico
     description: |
-      Utilizzato per stampare con tavole e feltri non uniformi.
+      Utilizzato per stampare con tavole di legno e feltri non uniformi.
     img:
       - feltro-silon-7.jpg
       - feltro-silon-5.jpg

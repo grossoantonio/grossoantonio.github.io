@@ -1,7 +1,12 @@
+{% assign table = site.data.carte %}
+{% if page.url contains "/en/" %}
+  {% assign table = site.data.carte_en %}
+{% endif %}
+
 <div class="table-responsive m-3">
   <table class="table table-striped">
-    {% for row in site.data.carte %}
 
+    {% for row in table %}
       {% if forloop.first %}
         <thead>
           <tr>
@@ -15,7 +20,6 @@
       {% tablerow item in row %}
         {{ item[1] }}
       {% endtablerow %}
-
     {% endfor %}
   </table>
 </div>

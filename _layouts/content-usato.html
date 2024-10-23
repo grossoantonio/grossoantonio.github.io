@@ -1,35 +1,42 @@
 ---
 layout: default
 ---
+
+{% include banner-cta.html %}
+
 <div class="container">
-    <section class="white-bkg">
-        <div class="row ">
-            <div class="col-sm-12">
-                <div class="text-container">
-                    <h1 class="title-product">{{page.h1}}</h1>
-                    {{content}}
-                </div>
-            </div>
+  <section class="white-bkg">
+    <div class="row ">
+      <div class="col-sm-12">
+        <div class="text-container">
+          <h1 class="title-product">{{ page.h1 }}</h1>
+          {{ content }}
+          <h2 class="m-5 text-uppercase text-secondary text-center fw-bolder">{{ page.h2 }}</h2>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 </div>
 <div class="container-fluid container-cards">
-    <div class="row">
-        {% for item in page.magazzino %}
-            <div class="col-ul-4  col-md-6 col-sm-12">
-                <div class="card">
-                    <div class="slider-auto">
-                        {% for img in item.img %}
-                            <img class="card-img-top img-fluid img-margin25" src="/assets/img/usato/{{ img }}" alt="{{ img | replace: '-', ' ' | remove: ".jpg" | remove: ".png" }}" />
-                        {% endfor %}
-                    </div>
+  <div class="row">
+    {% for item in page.magazzino %}
+      <div class="col-ul-4  col-md-6 col-sm-12">
+        <div class="card">
+          <div class="slider-auto">
+            {% for img in item.img %}
+              <img
+                class="card-img-top img-fluid"
+                src="/assets/img/usato/{{ img }}"
+                alt="{{ img | replace: '-', ' ' | remove: ".jpg" | remove: ".png" }}" />
+            {% endfor %}
+          </div>
 
-                    <div class="card-block">
-                        <h4 class="card-title">{{item.title}}</h4>
-                        {{item.description}}
-                    </div>
-                </div>
-            </div>
-        {% endfor %}
-    </div>
+          <div class="card-block">
+            <h4 class="card-title">{{ item.title }}</h4>
+            {{ item.description }}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 </div>

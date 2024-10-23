@@ -1,3 +1,10 @@
+@include media-breakpoint-down(md) {
+  .table-responsive {
+    overflow-x: scroll;
+  }
+}
+
+
 table.table {
   tbody {
     font-size: .875rem;
