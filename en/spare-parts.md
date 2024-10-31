@@ -39,7 +39,7 @@ row:
       - forno-essiccazione-02.png
     description: "▸ Sliding mallets to facilitate the introduction of the leathers. <br>
       ▸ Heating by electrical resistors or steam. <br><br>
-      <b>*Possibility to customize the size and number of the mallets.</b>"
+      <b>*Possibility to customize the size and number of the mallets</b>"
   - title: Rotating carousel
     img:
       - giostra-01.jpg
@@ -52,7 +52,7 @@ row:
   - title: Leather toggles
     img:
       - pinze.png
-    description: "In heat-resistant polypropylene. <br><br> <b>*Available in various types and materials.</b>"
+    description: "In heat-resistant polypropylene. <br><br> <b>*Available in various types and materials</b>"
   - title: Perlon wire for spraying machines
     # img:
     #   - spessimetro-2.jpg

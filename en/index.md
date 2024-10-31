@@ -1,6 +1,7 @@
 ---
 layout: content-home
 title: Grosso Antonio
+description: Machinery, accessories, services and technologies for the tanning industry
 img:
   - /old/home-old-1.jpg
   - /old/home-old-2.jpg
@@ -10,7 +11,7 @@ img:
   - /old/home-old-6.jpg
   - /old/home-old-7.jpg
   - /old/home-old-8.jpg
-title1: <small>Photoengraved Design rollers</small>
+title1: <small>Photoengraved design rollers</small>
 link1: photoengraved-rollers.html
 p1: |
   Increase the value of your leather with every different kind of design and possibility of customization and EXCLUSIVITY.

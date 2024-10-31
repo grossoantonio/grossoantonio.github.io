@@ -74,12 +74,11 @@ footer {
 		line-height: 25px;
 
 		.copy {
-			text-align: center;
-			margin-left: 10px;
 			color: #fff;
+			font-size: 12px;
 
-			@include media-breakpoint-up(sm) {
-				text-align: left;
+			@include media-breakpoint-up(lg) {
+				margin-left: 10px;
 			}
 		}
 
@@ -87,7 +86,7 @@ footer {
 			text-align: right;
 
 			& a {
-				font-family: monospace;
+				// font-family: monospace;
 				font-size: $font-size-xs;
 				color: #f8f8f8;
 			}

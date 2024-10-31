@@ -4,7 +4,7 @@ title: Dynavac carpet
 sections:
   - title: Dynavac carpets
     description: |
-      Rubber and fabric carpets for Dynavac toggling machines <br><br> <b>*Available in different sizes.</b>"
+      Rubber and fabric carpets for Dynavac toggling machines. <br><br> <b>*Available in different sizes</b>
     img:
       - dinavac-1.jpg
       - dinavac-3.jpg

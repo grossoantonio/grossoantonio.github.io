@@ -2,7 +2,7 @@
 layout: content-usato
 title: Second Hand machines
 h1: Second Hand machines
-h2: Guaranteed second hand
+h2: Second hand guaranteed
 magazzino:
   - description: Gemata Rotolab 40 laboratory machine working width MM 400
     img:
@@ -18,7 +18,7 @@ magazzino:
   - description: Buffing machine Buma MM 1600 brand Ficini Rino complete with its dedusting machine working width MM 1900
     img:
       - 4.jpg
-      - 4B.jpg
+      - 4b.jpg
   - description: Gemata Megastar s working width MM 1800 complete with its spreader and no. 03 cylinders
     img:
       - 5.jpg
@@ -37,7 +37,12 @@ magazzino:
   - description: Thousand points Das Comar mod. Rollpoint super 18/8 with spreader working width MM 1800 (total usable rollers no. 08)
     img:
       - 10.jpg
-      - 10B.jpg
+      - 10b.jpg
+  - description: Dust-removing machine brand Ficini mod. Dema MM 1900 3 blowing heads. <br>Complete with Robuschi blower.
+
+    img:
+      - 11.jpg
+      - 11b.jpg
 ---
 
 On customer's request we can offer used tanning machines of every make and model, suitable for the leather processing in the various stages of the production process.

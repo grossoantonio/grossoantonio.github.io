@@ -18,7 +18,7 @@ magazzino:
   - description: Smerigliatrice Buma MM 1600 (Ficini Rino) completa di sua spazzola MM 1900
     img:
       - 4.jpg
-      - 4B.jpg
+      - 4b.jpg
   - description: Gemata Megastar s MM 1800 completa di tappeto introduzione pelli e nr. 03 cilindri
     img:
       - 5.jpg
@@ -37,7 +37,11 @@ magazzino:
   - description: Millepunte Das Comar mod. Rollpoint super 18/8 MM 1800 con spreader introduzione pelli con castello a nr. 08 rulli
     img:
       - 10.jpg
-      - 10B.jpg
+      - 10b.jpg
+  - description: Spazzolatrice marca Ficini mod. Dema MM 1900 a 3 teste. <br> Completa di soffiante Robuschi.
+    img:
+      - 11.jpg
+      - 11b.jpg
 ---
 
 Su richiesta del Cliente siamo in grado di offrire macchinari usati per il settore conciario, di ogni marca e

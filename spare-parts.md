@@ -40,7 +40,7 @@ row:
       - forno-essiccazione-02.png
     description: "▸ Aste scorrevoli per facilitare l'introduzione delle pelli. <br>
       ▸ Riscaldamento elettrico con resistenze o a vapore. <br><br>
-      <b>*Possibilità di personalizzare la grandezza ed il numero delle aste.</b>"
+      <b>*Possibilità di personalizzare la grandezza ed il numero delle aste</b>"
   - title: Giostra girevole
     img:
       - giostra-01.jpg
@@ -53,7 +53,7 @@ row:
   - title: Pinze per inchiodatura pelli
     img:
       - pinze.png
-    description: "In polipropilene anticalore. <br><br> <b>*Disponibili in varie tipologie e materiali.</b>"
+    description: "In polipropilene anticalore. <br><br> <b>*Disponibili in varie tipologie e materiali</b>"
   - title: Filo perlon per spruzzi
     # img:
     #   - spessimetro-2.jpg

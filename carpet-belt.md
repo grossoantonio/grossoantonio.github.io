@@ -11,7 +11,7 @@ sections:
           - Gemata; Rollmac; Incoma; 3P
       - title: Macchine con luce lavoro
         list:
-          - MM1800; MM2200 <br> <b>*Disponibili su richiesta altre misure</b>
+          - MM1800; MM2200 <br> <strong>*Disponibili su richiesta altre misure</strong>
     img:
       - manicotto-1.png
       - manicotto-3.jpg
