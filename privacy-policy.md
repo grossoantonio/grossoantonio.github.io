@@ -9,10 +9,11 @@ La presente Privacy Policy descrive come gestiamo le informazioni degli utenti. 
 
 #### Dati Aziendali
 
-Nome Azienda: [Nome della tua azienda]
-Indirizzo: [Indirizzo completo]
-Email: [Email di contatto]
-Telefono: [Numero di telefono]
+Grosso Antonio \\
+Via del Salice, 6/8 - Zona Ind. Macrolotto 56022 Castelfranco di Sotto (PI) \\
+Tel. (+39) 0571 486090 (r.a.) \\
+email: info@grossoantonio.it \\
+email: grossoantonio2.0srl@grossoantonio.it
 
 #### Responsabile del Trattamento
 
