@@ -43,6 +43,7 @@ magazzino:
     img:
       - 11.jpg
       - 11b.jpg
+      - 11c.jpg
 ---
 
 On customer's request we can offer used tanning machines of every make and model, suitable for the leather processing in the various stages of the production process.

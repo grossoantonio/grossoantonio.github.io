@@ -1,7 +1,7 @@
 ---
 layout: content-home
 title: Grosso Antonio
-description: Macchinari, accesori, servizi e tacnologie per l'industria conciaria
+description: Macchinari per conceria, accesori per conceria, ricambi per conceria, macchine usate per conceria.
 img:
   - /old/home-old-1.jpg
   - /old/home-old-2.jpg

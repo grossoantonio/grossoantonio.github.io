@@ -42,6 +42,7 @@ magazzino:
     img:
       - 11.jpg
       - 11b.jpg
+      - 11c.jpg
 ---
 
 Su richiesta del Cliente siamo in grado di offrire macchinari usati per il settore conciario, di ogni marca e

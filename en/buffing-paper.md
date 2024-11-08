@@ -5,6 +5,7 @@ img:
   - carta-1.jpg
   - carta-2.jpg
   - carta-3.jpg
+  - ROTOLO-SP40F.jpg
   - carta-4.jpg
   - "carta-smeriglio/ROTOLO-OK96L.png"
   - carta-5.jpg

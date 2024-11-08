@@ -62,6 +62,27 @@ row:
       - nastri-1.jpg
       - nastri-2.jpg
     description: "In varie altezze e colori, disponibili per tutti i modelli di misuratrici."
+  - title: Denti in plastica resistente per bottali
+    img:
+      - DENTI-1.png
+      - DENTI-2.png
+      - DENTI-3.png
+    description: "<b>*Disponibili in varie dimensioni</b>"
+  - title: CILINDRI INCISI PER MACCHINE TAMPONATRICI
+    img:
+      - cilindri-reverse-tabella.png
+    description: "<b>*Disponibili in qualsiasi misura e per qualsiasi tipo di macchina</b> <br><br>
+    <b>▸ Cilindri reverse</b><br><br>
+    <b>▸ Cilindri synchro</b> <br>&nbsp;- Codici cilindri “L”	<br><br>
+    <b>▸ Cilindri elicoidali</b> <br>&nbsp;- Codici cilindri “N”	<br><br>
+    <b>▸ Stucco e Prefondi </b> <br>&nbsp;- Cilindro cromato tipo “SC <br>&nbsp;- Cilindro long life tipo “SSLL” 	<br><br>
+    <b>▸ Copertura  </b> <br>&nbsp;- Cilindro cromato tipo “G” o long life “GLL” <br>&nbsp;- Cilindro cromato tipo “NP” o long life “NPLL” 	<br><br>
+    "
+  - title: Filo Perlon
+    img:
+      - filo-spruzzo.png
+    description: "*Per tutti i modelli di spruzzo"
+
 ---
 
 Forniamo pezzi di ricambio, parti meccaniche, elettriche ed elettroniche per qualsiasi tipo di macchinario per conceria o inerente al settore della lavorazione della pelle, garantendo qualità, idoneità ed un servizio di consegna efficiente e veloce.

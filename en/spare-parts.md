@@ -61,6 +61,26 @@ row:
       - nastri-1.jpg
       - nastri-2.jpg
     description: "In various colors, available for all measuring machine models."
+  - title: Plastic teeth for drums
+    img:
+      - DENTI-1.png
+      - DENTI-2.png
+      - DENTI-3.png
+    description: "<b>*Available in different sizes</b>"
+  - title: ENGRAVED ROLLERS FOR COATING MACHINE
+    img:
+      - cilindri-reverse-tabella.png
+    description: "<b>*In any size and for any kind of roller coating machine</b> <br><br>
+    <b>▸ Reverse rollers</b><br><br>
+    <b>▸ Synchro rollers</b> <br>&nbsp;- Cylinders codes “L”<br><br>
+    <b>▸ Helicoidal rollers</b> <br>&nbsp;- Cylinders codes “N”<br><br>
+    <b>▸ Stucco coating</b> <br>&nbsp;- “SC” type roller chromed <br>&nbsp;- “SSLL” type roller long life<br><br>
+    <b>▸ Base coating</b> <br>&nbsp;- “G” type roller chromed or “GLL” long life <br>&nbsp;- “NP” type roller chromed or “NPLL” type long life<br><br>
+    "
+  - title: Perlon wire
+    img:
+      - filo-spruzzo.png
+    description: "*For all models of spray machine"
 ---
 
 We supply spare parts, mechanical, electrical and electronic parts for any type of machinery for the tannery or for the leather processing sector, guaranteeing quality, suitability and an efficient and fast delivery service.
