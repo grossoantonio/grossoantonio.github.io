@@ -17,7 +17,7 @@ Con l’esperienza maturata negli anni, per soddisfare le sempre più numerose r
 
 Con l’appoggio di un magazzino ben fornito ha iniziato la commercializzazione e la distribuzione di pezzi di ricambio e accessori per conceria di ogni genere, parti meccaniche ed elettriche, macchinari usati e revisionati.
 
-<div style="text-align: center;" class="mb-3">
+<div style="text-align: center;" class="mb-3gap-4">
   <img class="xs-full-img" src="{{ site.url }}/assets/img/photo/azienda-2.jpg">
   <img class="xs-full-img" src="{{ site.url }}/assets/img/photo/photo-2.jpg">
 </div>

@@ -32,14 +32,28 @@ layout: default-logo-doppio
         <div class="text-container">
           {% comment %} <h3 class="title-product title-small">{{ page.title2 }}</h3> {% endcomment %}
           {{ content }}
-          <section class="features text-center fw-bold my-5 pb-3">
-            <div class="row">
+          <section id="featuresSection" class="features text-center my-4 py-4 border-top border-bottom border-3 border-primary">
+            <div class="diamond-container"><img
+                id="diamond-1"
+                class="diamond"
+                src="/assets/img/diamond/diamond-1.png"
+                alt="diamond"
+                width="80">
+              <img
+                id="diamond-2"
+                class="diamond"
+                src="/assets/img/diamond/diamond-2.png"
+                alt="diamond"
+                width="80">
+              <img
+                id="diamond-3"
+                class="diamond"
+                src="/assets/img/diamond/diamond-3.png"
+                alt="diamond"
+                width="80"></div>
+            <div class="row justify-content-center align-items-center">
               {% for item in page.features %}
-                <div class="col-4">
-                  <img
-                    src="/assets/img/rombo.svg"
-                    alt="rombo"
-                    width="20">
+                <div class="col-4 feature">
                   <div class="mt-3">{{ item | textilize }}</div>
                 </div>
               {% endfor %}

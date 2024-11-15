@@ -1,9 +1,14 @@
 img.xs-full-img {
     width: 100%;
-    margin-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
     @include media-breakpoint-up(sm) {
-        width: 40%;
+        width: 48%;
+    }
+
+    @include media-breakpoint-up(lg) {
+        padding: 1rem
     }
 
 }

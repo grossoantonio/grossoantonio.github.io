@@ -54,13 +54,10 @@ row:
     img:
       - pinze.png
     description: "In polipropilene anticalore. <br><br> <b>*Disponibili in varie tipologie e materiali</b>"
-  - title: Filo perlon per spruzzi
-    # img:
-    #   - spessimetro-2.jpg
   - title: Nastri termostampanti per misuratrici
     img:
-      - nastri-1.jpg
-      - nastri-2.jpg
+      - nastri-1.png
+      - nastri-2.png
     description: "In varie altezze e colori, disponibili per tutti i modelli di misuratrici."
   - title: Denti in plastica resistente per bottali
     img:
@@ -68,6 +65,10 @@ row:
       - DENTI-2.png
       - DENTI-3.png
     description: "<b>*Disponibili in varie dimensioni</b>"
+  - title: Filo Perlon
+    img:
+      - filo-spruzzo.png
+    description: "*Per tutti i modelli di spruzzo"
   - title: CILINDRI INCISI PER MACCHINE TAMPONATRICI
     img:
       - cilindri-reverse-tabella.png
@@ -78,11 +79,6 @@ row:
     <b>▸ Stucco e Prefondi </b> <br>&nbsp;- Cilindro cromato tipo “SC <br>&nbsp;- Cilindro long life tipo “SSLL” 	<br><br>
     <b>▸ Copertura  </b> <br>&nbsp;- Cilindro cromato tipo “G” o long life “GLL” <br>&nbsp;- Cilindro cromato tipo “NP” o long life “NPLL” 	<br><br>
     "
-  - title: Filo Perlon
-    img:
-      - filo-spruzzo.png
-    description: "*Per tutti i modelli di spruzzo"
-
 ---
 
 Forniamo pezzi di ricambio, parti meccaniche, elettriche ed elettroniche per qualsiasi tipo di macchinario per conceria o inerente al settore della lavorazione della pelle, garantendo qualità, idoneità ed un servizio di consegna efficiente e veloce.

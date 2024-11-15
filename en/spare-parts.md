@@ -53,13 +53,10 @@ row:
     img:
       - pinze.png
     description: "In heat-resistant polypropylene. <br><br> <b>*Available in various types and materials</b>"
-  - title: Perlon wire for spraying machines
-    # img:
-    #   - spessimetro-2.jpg
   - title: Thermo print paper rolls for measuring machines.
     img:
-      - nastri-1.jpg
-      - nastri-2.jpg
+      - nastri-1.png
+      - nastri-2.png
     description: "In various colors, available for all measuring machine models."
   - title: Plastic teeth for drums
     img:
@@ -67,6 +64,11 @@ row:
       - DENTI-2.png
       - DENTI-3.png
     description: "<b>*Available in different sizes</b>"
+
+  - title: Perlon wire
+    img:
+      - filo-spruzzo.png
+    description: "*For all models of spray machine"
   - title: ENGRAVED ROLLERS FOR COATING MACHINE
     img:
       - cilindri-reverse-tabella.png
@@ -77,10 +79,6 @@ row:
     <b>▸ Stucco coating</b> <br>&nbsp;- “SC” type roller chromed <br>&nbsp;- “SSLL” type roller long life<br><br>
     <b>▸ Base coating</b> <br>&nbsp;- “G” type roller chromed or “GLL” long life <br>&nbsp;- “NP” type roller chromed or “NPLL” type long life<br><br>
     "
-  - title: Perlon wire
-    img:
-      - filo-spruzzo.png
-    description: "*For all models of spray machine"
 ---
 
 We supply spare parts, mechanical, electrical and electronic parts for any type of machinery for the tannery or for the leather processing sector, guaranteeing quality, suitability and an efficient and fast delivery service.
