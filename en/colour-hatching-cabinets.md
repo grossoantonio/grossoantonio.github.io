@@ -6,7 +6,7 @@ sections:
     description: |
       Multilight colour cabinets for visual colors evaluation, equipped with different types of illuminants: it is possible to compare various color shades in constant and ideal conditions.
       <b>Available in various sizes and dimensions.</b>
-      Possibility of creating a closed booth for color control with a support table for leathers and closure with a special sliding curtain.
+      Possibility of creating a <b>closed booth</b> for color control with a support table for leathers and closure with a special sliding curtain.
 
     img:
       - cabina-luce-01.png

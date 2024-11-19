@@ -48,4 +48,4 @@ magazzino:
 
 On customer's request we can offer used tanning machines of every make and model, suitable for the leather processing in the various stages of the production process.
 
-We can supply the machine used as is, or completely overhauled with replacement of mechanical, electrical and normal wear and tear parts; repainted as new.
+We can supply the machine used as is, or **completely overhauled** with replacement of mechanical, electrical and normal wear and tear parts; repainted as new.

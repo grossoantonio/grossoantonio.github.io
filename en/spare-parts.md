@@ -2,29 +2,57 @@
 layout: product-img-2col
 title: Spare parts and various accessories
 row:
-  - title: Thickness gauges
-    img:
-      - spessimetro-2.jpg
-    description: "Available in different sizes"
-  - title: Agate cylinders
-    img:
-      - rullo-agata-1.jpg
-    description: "Available in different sizes"
-  - title: Glazing cylinders
-    img:
-      - VETRO.png
-    description: "Available in different sizes"
   - title: Conveyor belts for dedusting machine
     img:
       - tappeto-1.png
       - tappeto-2.jpg
     description: "Available: <br> ▸ Pure cotton. <br> ▸ Anti-static and dust-proof without raised seams."
+
   - title: Staking conveyor belts
     img:
       - tappeto-palissone-1.png
       - tappeto-palissone-2.png
       - tappeto-palissone-3.png
-    description: Elastic fabric conveyor belts made for staking machines Baggio; 3P; Cartigliano ecc.
+    description: Elastic fabric conveyor belts made for staking machines Baggio; 3P; Cartigliano ecc. <br><br> <b>*Available in different materials and for all staking machine models</b>
+
+  - title: Thermo print paper rolls for measuring machines.
+    img:
+      - nastri-1.png
+      - nastri-2.png
+    description: "In various colors, available for all measuring machine models."
+
+  - title: Leather toggles
+    img:
+      - pinze.png
+    description: "In heat-resistant polypropylene. <br><br> <b>*Available in various types and materials</b>"
+
+  - title: Agate cylinders
+    img:
+      - rullo-agata-1.jpg
+    description: "Available in different sizes"
+
+  - title: Glazing cylinders
+    img:
+      - VETRO.png
+    description: "Available in different sizes"
+
+  - title: Plastic teeth for drums
+    img:
+      - DENTI-1.png
+      - DENTI-2.png
+      - DENTI-3.png
+    description: "<b>*Available in different sizes</b>"
+
+  - title: Thickness gauges
+    img:
+      - spessimetro-2.jpg
+    description: "Available in different sizes"
+
+  - title: Perlon wire
+    img:
+      - filo-spruzzo.png
+    description: "*For all models of spray machine"
+
   - title: Portable Hygrometer - Pinless moisture meter
     img:
       - IGROMETRO-1.png
@@ -33,6 +61,18 @@ row:
       Available in various types: <br>
       ▸ Analog display range 0-70% <br>
       ▸ Digital display range 0-100%"
+
+  - title: Chemical products mixer
+    img:
+      - agitatore-1.png
+      - agitatore-2.png
+    description: "Available in various solutions: <br> manual and continuous operation for drums or tanks. <br> Suitable to solve any agitation needs."
+
+  - title: Rotating carousel
+    img:
+      - giostra-01.jpg
+    description: For hanging leathers supplied with wheels for easy movement, foldable.
+
   - title: Leather drying furnace
     img:
       - forno-essiccazione-01.png
@@ -40,42 +80,16 @@ row:
     description: "▸ Sliding mallets to facilitate the introduction of the leathers. <br>
       ▸ Heating by electrical resistors or steam. <br><br>
       <b>*Possibility to customize the size and number of the mallets</b>"
-  - title: Rotating carousel
-    img:
-      - giostra-01.jpg
-    description: For hanging leathers supplied with wheels for easy movement, foldable.
-  - title: Chemical products mixer
-    img:
-      - agitatore-1.png
-      - agitatore-2.png
-    description: "Available in various solutions: <br> manual and continuous operation for drums or tanks. <br> Suitable to solve any agitation needs."
-  - title: Leather toggles
-    img:
-      - pinze.png
-    description: "In heat-resistant polypropylene. <br><br> <b>*Available in various types and materials</b>"
-  - title: Thermo print paper rolls for measuring machines.
-    img:
-      - nastri-1.png
-      - nastri-2.png
-    description: "In various colors, available for all measuring machine models."
-  - title: Plastic teeth for drums
-    img:
-      - DENTI-1.png
-      - DENTI-2.png
-      - DENTI-3.png
-    description: "<b>*Available in different sizes</b>"
 
-  - title: Perlon wire
-    img:
-      - filo-spruzzo.png
-    description: "*For all models of spray machine"
   - title: ENGRAVED ROLLERS FOR COATING MACHINE
     img:
-      - cilindri-reverse-tabella.png
+      - tabelle-cilindri/tab-cilindri-reverse-en.png
+      - tabelle-cilindri/tab-cilindri-syncro-en.png
+      - tabelle-cilindri/tab-cilindri-elicoidali-en.png
     description: "<b>*In any size and for any kind of roller coating machine</b> <br><br>
     <b>▸ Reverse rollers</b><br><br>
-    <b>▸ Synchro rollers</b> <br>&nbsp;- Cylinders codes “L”<br><br>
-    <b>▸ Helicoidal rollers</b> <br>&nbsp;- Cylinders codes “N”<br><br>
+    <b>▸ Synchro rollers</b><br><br>
+    <b>▸ Helicoidal rollers</b><br><br>
     <b>▸ Stucco coating</b> <br>&nbsp;- “SC” type roller chromed <br>&nbsp;- “SSLL” type roller long life<br><br>
     <b>▸ Base coating</b> <br>&nbsp;- “G” type roller chromed or “GLL” long life <br>&nbsp;- “NP” type roller chromed or “NPLL” type long life<br><br>
     "

@@ -6,7 +6,7 @@ sections:
     description: |
       Cabine luci per la valutazione visiva dei colori, equipaggiata con diverse tipologie di illuminanti: è possibile poter confrontare varie tonalità di colore in condizioni costanti ed ideali.
       <b>Disponibili in varie dimensioni e grandezze.</b>
-      Possibilità di realizzare cabina/camerino chiusa per il controllo colore con banco di appoggio pelli e chiusura tramite apposita tenda scorrevole.
+      Possibilità di realizzare <b>cabina/camerino chiusa</b> per il controllo colore con banco di appoggio pelli e chiusura tramite apposita tenda scorrevole.
 
     img:
       - cabina-luce-01.png

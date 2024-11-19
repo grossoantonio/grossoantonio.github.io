@@ -49,4 +49,4 @@ Su richiesta del Cliente siamo in grado di offrire macchinari usati per il setto
 modello, idonei alla lavorazione delle pelli nelle varie fasi del processo produttivo.
 
 Possiamo fornire il macchinario usato, visto e piaciuto nelle condizioni in cui si trova, oppure
-completamente revisionato a nuovo con sostituzione delle parti meccaniche, elettriche e di normale usura.
+**completamente revisionato a nuovo** con sostituzione delle parti meccaniche, elettriche e di normale usura.
