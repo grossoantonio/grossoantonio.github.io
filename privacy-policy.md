@@ -1,5 +1,5 @@
 ---
-layout: content-azienda-full
+layout: content-default
 title: Privacy policy
 ---
 
