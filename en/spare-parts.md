@@ -6,6 +6,9 @@ row:
     img:
       - tappeto-1.png
       - tappeto-2.jpg
+      - tappeto-3.png
+      - tappeto-4.png
+      - tappeto-5.png
     description: "Available: <br> ▸ Pure cotton. <br> ▸ Anti-static and dust-proof without raised seams."
 
   - title: Staking conveyor belts
@@ -14,6 +17,18 @@ row:
       - tappeto-palissone-2.png
       - tappeto-palissone-3.png
     description: Elastic fabric conveyor belts made for staking machines Baggio; 3P; Cartigliano ecc. <br><br> <b>*Available in different materials and for all staking machine models</b>
+
+  - title: Sleeve felt for Setting and sammying machines
+    img:
+    description: <b>*Available in any size and for any model/brand of machine</b>
+
+  - title: Felts for sammying trought feed machines
+    img:
+    description: <b>*Available in any size and for any model/brand of machine</b>
+
+  - title: Felt for rotary presses for ironing and embossing
+    img:
+    description: <b>*Available in any size and for any model/brand of machine</b>
 
   - title: Thermo print paper rolls for measuring machines.
     img:
@@ -83,6 +98,10 @@ row:
 
   - title: ENGRAVED ROLLERS FOR COATING MACHINE
     img:
+      - tabelle-cilindri/cilindro-2.png
+      - tabelle-cilindri/cilindro-3.png
+      - tabelle-cilindri/cilindro-1.png
+      - tabelle-cilindri/cilindro-4.png
       - tabelle-cilindri/tab-cilindri-reverse-en.png
       - tabelle-cilindri/tab-cilindri-syncro-en.png
       - tabelle-cilindri/tab-cilindri-elicoidali-en.png

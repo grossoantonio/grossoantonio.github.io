@@ -28,6 +28,8 @@ nav:
         url: /rubbers.html
       - title: Feltri
         url: /felts.html
+      - title: Film Polilux
+        url: /film-polilux.html
       - title: Manicotto per tamponatrici
         url: /carpet-belt.html
       - title: Tappeto per Dinavac
@@ -63,6 +65,8 @@ nav_en:
         url: /en/rubbers.html
       - title: Felts
         url: /en/felts.html
+      - title: Films Polilux
+        url: /en/film-polilux.html
       - title: Carpet Belt
         url: /en/carpet-belt.html
       - title: Dinavac Carpet

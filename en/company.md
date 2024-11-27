@@ -1,6 +1,7 @@
 ---
 layout: content-azienda-full
 title: Company
+description: Tannery machines, tannery spare parts, accessories for tannery, second hand machines for tannery.
 features:
   - KNOWLEDGE
   - SERVICE

@@ -1,7 +1,7 @@
 ---
 layout: content-home
 title: Grosso Antonio
-description: Machinery, accessories, services and technologies for the tanning industry
+description: Tannery machines, tannery spare parts, accessories for tannery, second hand machines for tannery.
 img:
   - /old/home-old-1.jpg
   - /old/home-old-2.jpg
@@ -23,4 +23,8 @@ title3: Spare Parts
 link3: spare-parts.html
 p3: |
   With our experience we can guarantee an efficient technical support service, being able to supply spare parts and accessories of all kinds.
+claim:
+  title: No Quality No Future
+  link: company.html
+  description: We believe in our work, it's our passion
 ---

@@ -1,6 +1,7 @@
 ---
 layout: content-azienda-full
 title: Azienda
+description: Macchinari per conceria, accesori per conceria, ricambi per conceria, macchine usate per conceria.
 features:
   - COMPETENZA
   - SERVIZIO

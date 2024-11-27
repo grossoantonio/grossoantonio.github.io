@@ -7,6 +7,9 @@ row:
     img:
       - tappeto-1.png
       - tappeto-2.jpg
+      - tappeto-3.png
+      - tappeto-4.png
+      - tappeto-5.png
     description: "Disponibili: <br> ▸ In puro cotone. <br> ▸ Antistatici e antipolvere senza giunture in rilievo."
 
   - title: Tappeti per palissoni
@@ -15,6 +18,18 @@ row:
       - tappeto-palissone-2.png
       - tappeto-palissone-3.png
     description: Tappeti in tessuto elastico per palissoni Baggio; 3P; Cartigliano ecc. <br><br> <b>*Disponibili in vari materiali e per tutti i modelli di palissone</b>
+
+  - title: Manicotti per macchine messe al vento
+    img:
+    description: <b>*Disponibili in qualsiasi misura e per qualsiasi tipo/modello di macchina</b>
+
+  - title: Feltri per presse in continuo in wet blue
+    img:
+    description: <b>*Disponibili in qualsiasi misura e per qualsiasi tipo/modello di macchina</b>
+
+  - title: Feltri da stiro e stampa per presse rotative in continuo
+    img:
+    description: <b>*Disponibili in qualsiasi misura e per qualsiasi tipo/modello di macchina</b>
 
   - title: Nastri termostampanti per misuratrici
     img:
@@ -84,6 +99,10 @@ row:
 
   - title: CILINDRI INCISI PER MACCHINE TAMPONATRICI
     img:
+      - tabelle-cilindri/cilindro-2.png
+      - tabelle-cilindri/cilindro-3.png
+      - tabelle-cilindri/cilindro-1.png
+      - tabelle-cilindri/cilindro-4.png
       - tabelle-cilindri/tab-cilindri-reverse-it.png
       - tabelle-cilindri/tab-cilindri-syncro-it.png
       - tabelle-cilindri/tab-cilindri-elicoidali-it.png

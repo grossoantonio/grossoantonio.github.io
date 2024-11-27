@@ -46,6 +46,6 @@ magazzino:
       - 11c.jpg
 ---
 
-On customer's request we can offer used tanning machines of every make and model, suitable for the leather processing in the various stages of the production process.
+On customer’s request we can offer second hand machines for the leather district, of every Brand and of any type, suitable for the tannery production process.
 
-We can supply the machine used as is, or **completely overhauled** with replacement of mechanical, electrical and normal wear and tear parts; repainted as new.
+We can supply second hand machines seen and liked as it is or **completely reconditioned as new, with a guarantee equal to new.**
