@@ -27,7 +27,7 @@ p3: |
   Grazie alla nostra esperienza possiamo garantire un servizio di supporto tecnico efficiente,
   potendo fornire pezzi di ricambio e accessoristica varia di ogni genere.
 claim:
-  title: No Quality No Future
+  title: QUALITY is FUTURE
   link: company.html
   description: We believe in our work, it's our passion
 # claim:

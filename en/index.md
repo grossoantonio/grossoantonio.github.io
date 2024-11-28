@@ -24,7 +24,7 @@ link3: spare-parts.html
 p3: |
   With our experience we can guarantee an efficient technical support service, being able to supply spare parts and accessories of all kinds.
 claim:
-  title: No Quality No Future
+  title: QUALITY is FUTURE
   link: company.html
   description: We believe in our work, it's our passion
 ---
