@@ -18,17 +18,39 @@ row:
       - tappeto-palissone-3.png
     description: Elastic fabric conveyor belts made for staking machines Baggio; 3P; Cartigliano ecc. <br><br> <b>*Available in different materials and for all staking machine models</b>
 
-  - title: Sleeve felt for Setting and sammying machines
+  - title: Needled Sleeve felt for setting-out machines
     img:
-    description: <b>*Available in any size and for any model/brand of machine</b>
+      - manicotti-per-macchine-messe-al-vento-1.png
+      - manicotti-per-macchine-messe-al-vento-2.jpg
+    description: |
+      ▸ Endless needled sleeve with special multi-layers base reinforced fabrics.
+
+      Composition: Wool and synthetic blend.
+
+      ***Available in any size and for any model/brand of machine**
 
   - title: Felts for sammying trought feed machines
     img:
-    description: <b>*Available in any size and for any model/brand of machine</b>
+      - feltri-per-presse-in-continuo-in-wet-blue-1.png
+      - feltri-per-presse-in-continuo-in-wet-blue-2.jpg
+    description: |
+      ▸ Endless needled felt with special multi layers reinforced base, with even thickness and surface smoothness. <br>
+
+      Composition: 100% Synthetic mixed fibers, differentiated layers. <br>
+      Calendered and Compacted
+
+      ***Available in any size and for any model/brand of machine**
 
   - title: Felt for rotary presses for ironing and embossing
     img:
-    description: <b>*Available in any size and for any model/brand of machine</b>
+      - feltri-da-stiro-e-stampa-per-presse-rotative-in-continuo-1.png
+      - feltri-da-stiro-e-stampa-per-presse-rotative-in-continuo-2.jpg
+    description: |
+      ▸ Endless needled felt with special heavy multi-layers base fabrics, with even thickness and surface smoothness.
+
+      Better operational conditions due to reduced electrostatic charge. <br>
+      Composition: 65% Synthetic + special anti-static fibers – 35% Wool  <br>
+      Calendered and Compacted
 
   - title: Thermo print paper rolls for measuring machines.
     img:

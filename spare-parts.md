@@ -10,7 +10,11 @@ row:
       - tappeto-3.png
       - tappeto-4.png
       - tappeto-5.png
-    description: "Disponibili: <br> ▸ In puro cotone. <br> ▸ Antistatici e antipolvere senza giunture in rilievo."
+    description: |
+      Disponibili:
+
+      ▸ In puro cotone. <br>
+      ▸ Antistatici e antipolvere senza giunture in rilievo.
 
   - title: Tappeti per palissoni
     img:
@@ -21,15 +25,24 @@ row:
 
   - title: Manicotti per macchine messe al vento
     img:
-    description: <b>*Disponibili in qualsiasi misura e per qualsiasi tipo/modello di macchina</b>
+      - manicotti-per-macchine-messe-al-vento-1.png
+      - manicotti-per-macchine-messe-al-vento-2.jpg
+    description: "▸ Manicotto agugliato rinforzato, misto lana e sintetico, senza trama. <br><br> <b>*Disponibili in qualsiasi misura e per qualsiasi tipo/modello di macchina</b>"
 
   - title: Feltri per presse in continuo in wet blue
     img:
-    description: <b>*Disponibili in qualsiasi misura e per qualsiasi tipo/modello di macchina</b>
+      - feltri-per-presse-in-continuo-in-wet-blue-1.png
+      - feltri-per-presse-in-continuo-in-wet-blue-2.jpg
+    description: |
+      Feltro agugliato con speciale base rinforzata multistrato, spessore uniforme e superficie ben smerigliata.
+
+      ***Disponibili in qualsiasi misura e per qualsiasi tipo/modello di macchina**
 
   - title: Feltri da stiro e stampa per presse rotative in continuo
     img:
-    description: <b>*Disponibili in qualsiasi misura e per qualsiasi tipo/modello di macchina</b>
+      - feltri-da-stiro-e-stampa-per-presse-rotative-in-continuo-1.png
+      - feltri-da-stiro-e-stampa-per-presse-rotative-in-continuo-2.jpg
+    description: ▸ Feltro idoneo alla stampatura e allo stiro con doppia agatura, con superficie ben smerigliata.
 
   - title: Nastri termostampanti per misuratrici
     img:

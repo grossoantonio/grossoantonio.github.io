@@ -30,7 +30,7 @@ layout: default
           <div class="prod-desc">
             <h3>{{ row.title | textilize }}</h3>
             <p>
-              {{ row.description | textilize }}
+              {{ row.description | replace: "\n", "  \n" | markdownify }}
             </p>
             <hr class="hidden-md-up">
           </div>
