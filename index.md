@@ -34,4 +34,5 @@ claim:
 #   title: Niente Qualità Niente Futuro
 #   link: company.html
 #   description: Crediamo nel nostro lavoro, è la nostra passione
+#
 ---
