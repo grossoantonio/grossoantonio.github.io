@@ -22,12 +22,14 @@ magazzino:
   - description: Gemata Megastar s MM 1800 completa di tappeto introduzione pelli e nr. 03 cilindri
     img:
       - 5.jpg
+    overlay: venduto
   - description: Penetrometro marca Giuliani
     img:
       - 6.jpg
   - description: Smerigliatrice a nastro Aletti luce lavoro MM 1800
     img:
       - 7.jpg
+    overlay: venduto
   - description: Pressa a piatto Mostardini mod. MP3 MS TON. 550 completa di piastra lucida MM 1600 X 1200
     img:
       - 8.jpg

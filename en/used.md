@@ -22,12 +22,14 @@ magazzino:
   - description: Gemata Megastar s working width MM 1800 complete with its spreader and no. 03 cylinders
     img:
       - 5.jpg
+    overlay: sold
   - description: Penetrometro brand Giuliani
     img:
       - 6.jpg
   - description: Through-feed belt-buffing machine Aletti working width MM 1800
     img:
       - 7.jpg
+    overlay: sold
   - description: Embossing machine Mostardini mod. MP3 MS TON. 550 complete with shiny plate MM 1600 X 1200
     img:
       - 8.jpg

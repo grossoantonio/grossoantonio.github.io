@@ -21,16 +21,21 @@ layout: default
   <div class="row">
     {% for item in page.magazzino %}
       <div class="col-ul-4  col-md-6 col-sm-12">
-        <div class="card">
-          <div class="slider-auto">
-            {% for img in item.img %}
-              <img
-                class="card-img-top img-fluid"
-                src="/assets/img/usato/{{ img }}"
-                alt="{{ img | replace: '-', ' ' | remove: ".jpg" | remove: ".png" }}" />
-            {% endfor %}
-          </div>
 
+        <div class="card">
+          <div class="overlay-container position-relative">
+            <div class="slider-auto">
+              {% for img in item.img %}
+                <img
+                  class="card-img-top img-fluid"
+                  src="/assets/img/usato/{{ img }}"
+                  alt="{{ img | replace: '-', ' ' | remove: ".jpg" | remove: ".png" }}" />
+              {% endfor %}
+            </div>
+            {% if item.overlay %}
+              <div class="overlay-sold overlay-centered text-uppercase">{{ item.overlay }}</div>
+            {% endif %}
+          </div>
           <div class="card-block">
             <h4 class="card-title">{{ item.title }}</h4>
             {{ item.description }}
