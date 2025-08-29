@@ -45,6 +45,12 @@ magazzino:
       - 11.jpg
       - 11b.jpg
       - 11c.jpg
+  - description: Macchina tamponatrice Das Comar mod. Rollpoint-S 18/3 MM 1800. <br> Completa di tappetino di introduzione pelli.
+    img:
+      - 12.jpg
+  - description: Stiratrice Rotopress mod. CLX MM 2200,completa di sistema protezione feltro e possibilità di carteggio.
+    img:
+      - 13.jpg
 ---
 
 Su richiesta del Cliente siamo in grado di offrire macchinari usati per il settore conciario, di ogni marca e

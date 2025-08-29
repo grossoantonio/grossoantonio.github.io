@@ -41,11 +41,16 @@ magazzino:
       - 10.jpg
       - 10b.jpg
   - description: Dust-removing machine brand Ficini mod. Dema MM 1900 3 blowing heads. <br>Complete with Robuschi blower.
-
     img:
       - 11.jpg
       - 11b.jpg
       - 11c.jpg
+  - description: Roller coater Das comar mod. Rollpoint-S 18/3, MM 1800. <br> Complete with introducer leathers.
+    img:
+      - 12.jpg
+  - description: Rotary ironing machine Rotopress mod. CLX MM 2200 <br> Complete with Applicart and felt protection.
+    img:
+      - 13.jpg
 ---
 
 On customer’s request we can offer second hand machines for the leather district, of every Brand and of any type, suitable for the tannery production process.
