@@ -51,6 +51,15 @@ magazzino:
   - description: Stiratrice Rotopress mod. CLX MM 2200,completa di sistema protezione feltro e possibilità di carteggio.
     img:
       - 13.jpg
+  - description: Bottale a follonare AMC 3X2
+    img:
+      - 14.jpg
+  - description: Lissa Gozzini per rettili.
+    img:
+      - 15.jpg
+  - description: Palissone 3P mod. Boxer MM 2400 3 teste.
+    img:
+      - 16.jpg
 ---
 
 Su richiesta del Cliente siamo in grado di offrire macchinari usati per il settore conciario, di ogni marca e
