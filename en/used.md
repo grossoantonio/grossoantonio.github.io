@@ -51,18 +51,23 @@ magazzino:
   - description: Rotary ironing machine Rotopress mod. CLX MM 2200 <br> Complete with Applicart and felt protection.
     img:
       - 13.jpg
-
   - description: Milling drum AMC 3X2
     img:
       - 14.jpg
-
   - description: Gozzini glazing machine for exotic leathers.
     img:
       - 15.jpg
-
   - description: 3P Staking machine mod. Boxer MM 2400 3 heads.
     img:
       - 16.jpg
+  - description: Vertical waste compactors.
+    img:
+      - 17a.jpg
+      - 17b.jpg
+  - description: FICINI FR 600 WITH NAXOS STONE ROLLER.
+    img:
+      - 18a.jpg
+      - 18b.jpg
 ---
 
 On customer’s request we can offer second hand machines for the leather district, of every Brand and of any type, suitable for the tannery production process.

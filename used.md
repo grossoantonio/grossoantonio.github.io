@@ -51,18 +51,23 @@ magazzino:
   - description: Stiratrice Rotopress mod. CLX MM 2200,completa di sistema protezione feltro e possibilità di carteggio.
     img:
       - 13.jpg
-
   - description: Bottale a follonare AMC 3X2
     img:
       - 14.jpg
-
   - description: Lissa Gozzini per rettili.
     img:
       - 15.jpg
-
   - description: Palissone 3P mod. Boxer MM 2400 3 teste.
     img:
       - 16.jpg
+  - description: "Presse verticali per compattare e smaltire rifiuti industriali: cartone, materiale plastico ecc."
+    img:
+      - 17a.jpg
+      - 17b.jpg
+  - description: FICINI FR 600 RULLO AMBRA.
+    img:
+      - 18a.jpg
+      - 18b.jpg
 ---
 
 Su richiesta del Cliente siamo in grado di offrire macchinari usati per il settore conciario, di ogni marca e
