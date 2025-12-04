@@ -61,6 +61,9 @@ row:
   - title: Leather toggles
     img:
       - pinze.png
+      - pinze-2.png
+      - pinze-3.png
+      - pinze-4.png
     description: "In heat-resistant polypropylene. <br><br> <b>*Available in various types and materials</b>"
 
   - title: Agate cylinders

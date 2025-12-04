@@ -53,6 +53,9 @@ row:
   - title: Pinze per inchiodatura pelli
     img:
       - pinze.png
+      - pinze-2.png
+      - pinze-3.png
+      - pinze-4.png
     description: "In polipropilene anticalore. <br><br> <b>*Disponibili in varie tipologie e materiali</b>"
 
   - title: Rulli Agata
