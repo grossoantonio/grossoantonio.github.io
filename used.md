@@ -15,10 +15,12 @@ magazzino:
     img:
       - 3.jpg
       - 3b.jpg
+    overlay: venduto
   - description: Smerigliatrice Buma MM 1600 (Ficini Rino) completa di sua spazzola MM 1900
     img:
       - 4.jpg
       - 4b.jpg
+    overlay: venduto
   - description: Gemata Megastar s MM 1800 completa di tappeto introduzione pelli e nr. 03 cilindri
     img:
       - 5.jpg
@@ -26,6 +28,7 @@ magazzino:
   - description: Penetrometro marca Giuliani
     img:
       - 6.jpg
+    overlay: venduto
   - description: Smerigliatrice a nastro Aletti luce lavoro MM 1800
     img:
       - 7.jpg
@@ -45,6 +48,7 @@ magazzino:
       - 11.jpg
       - 11b.jpg
       - 11c.jpg
+    overlay: venduto
   - description: Macchina tamponatrice Das Comar mod. Rollpoint-S 18/3 MM 1800. <br> Completa di tappetino di introduzione pelli.
     img:
       - 12.jpg
@@ -60,6 +64,7 @@ magazzino:
   - description: Palissone 3P mod. Boxer MM 2400 3 teste.
     img:
       - 16.jpg
+    overlay: venduto
   - description: "Presse verticali per compattare e smaltire rifiuti industriali: cartone, materiale plastico ecc."
     img:
       - 17a.jpg
@@ -68,6 +73,12 @@ magazzino:
     img:
       - 18a.jpg
       - 18b.jpg
+  - description: "Bottalino prove marca Dose misure MM 1000 X 500"
+    img:
+      - 19.jpg
+  - description: "Bottalini gemellari per prove marca Dose"
+    img:
+      - 20.jpg
 ---
 
 Su richiesta del Cliente siamo in grado di offrire macchinari usati per il settore conciario, di ogni marca e

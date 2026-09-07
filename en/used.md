@@ -15,10 +15,12 @@ magazzino:
     img:
       - 3.jpg
       - 3b.jpg
+    overlay: sold
   - description: Buffing machine Buma MM 1600 brand Ficini Rino complete with its dedusting machine working width MM 1900
     img:
       - 4.jpg
       - 4b.jpg
+    overlay: sold
   - description: Gemata Megastar s working width MM 1800 complete with its spreader and no. 03 cylinders
     img:
       - 5.jpg
@@ -26,6 +28,7 @@ magazzino:
   - description: Penetrometro brand Giuliani
     img:
       - 6.jpg
+    overlay: sold
   - description: Through-feed belt-buffing machine Aletti working width MM 1800
     img:
       - 7.jpg
@@ -41,6 +44,7 @@ magazzino:
       - 10.jpg
       - 10b.jpg
   - description: Dust-removing machine brand Ficini mod. Dema MM 1900 3 blowing heads. <br>Complete with Robuschi blower.
+    overlay: sold
     img:
       - 11.jpg
       - 11b.jpg
@@ -58,6 +62,7 @@ magazzino:
     img:
       - 15.jpg
   - description: 3P Staking machine mod. Boxer MM 2400 3 heads.
+    overlay: sold
     img:
       - 16.jpg
   - description: Vertical waste compactors.
@@ -68,6 +73,12 @@ magazzino:
     img:
       - 18a.jpg
       - 18b.jpg
+  - description: "Dose testing drums in stainless steel size MM 1000 X 500"
+    img:
+      - 19.jpg
+  - description: "Dose twin test drums"
+    img:
+      - 20.jpg
 ---
 
 On customer’s request we can offer second hand machines for the leather district, of every Brand and of any type, suitable for the tannery production process.
