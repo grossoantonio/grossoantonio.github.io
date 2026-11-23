@@ -1,0 +1,50 @@
+/*
+  Static location map (partials/location-map.html.twig, simple variant): SVG drawn by osm-map, linked to
+  Google Maps, with the OpenStreetMap attribution bottom right over the map.
+  Shared file from _tools/osm-map/grav/simple/: plain CSS, no build, no Bootstrap; the partial loads it.
+  No frame or size of its own: border, shadow, corners and size come from the site's map box (the old
+  map's element, kept with its id and classes in the site's template). When that box has a height, the
+  map fills it, shown at 1:1 and cropped at the sides (osm-map outputs as tall as the box); in a box
+  without one, the map keeps its own proportions.
+  A site that needs something else adds rules at the end of its copy, with a comment saying why.
+*/
+
+.location-map {
+  position: relative;
+  height: 100%;
+  margin: 0;
+}
+
+.location-map__link,
+.location-map picture {
+  display: block;
+  height: 100%;
+}
+
+.location-map__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Fine print on a solid background, in fixed neutral colours so it reads on any site */
+.location-map__attribution {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0 4px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+.location-map__attribution a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.location-map__attribution a:hover {
+  text-decoration: underline;
+}

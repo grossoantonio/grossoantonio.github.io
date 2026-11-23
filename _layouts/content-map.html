@@ -1,10 +1,25 @@
 ---
-layout: google-maps-api
+layout: map-page
 ---
 <div class="container-fluid map-container">
   <div class="row">
     <div class="col-xs-12">
-      <div class="full-screen-map" id="map"></div>
+      <!-- Map drawn by D:\webroot\_tools\osm-map from _map/map.yaml; sizes match its outputs.
+           Markup and assets/css/location-map.css as in _tools/osm-map/grav/simple/ -->
+      <div class="full-screen-map" id="map">
+        <figure class="location-map">
+          <a class="location-map__link" href="https://goo.gl/maps/HxyQVUdLJU42" rel="noopener" target="_blank" aria-label="{{ page.map_label }}">
+            <picture>
+              <source media="(min-width: 1500px)" srcset="/assets/img/map/contacts-map-ul.svg?v1" width="1920" height="600">
+              <source media="(min-width: 992px)" srcset="/assets/img/map/contacts-map-lg.svg?v1" width="1280" height="500">
+              <img class="location-map__image" src="/assets/img/map/contacts-map-phone.svg?v1" width="1000" height="300" alt="" loading="lazy" decoding="async">
+            </picture>
+          </a>
+          <figcaption class="location-map__attribution">
+            <a href="https://www.openstreetmap.org/copyright" rel="noopener" target="_blank" aria-label="© OpenStreetMap {{ page.new_tab }}">© OpenStreetMap</a>
+          </figcaption>
+        </figure>
+      </div>
     </div>
   </div>
 </div>

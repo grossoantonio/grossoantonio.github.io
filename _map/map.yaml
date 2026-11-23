@@ -1,0 +1,79 @@
+# osm-map config for the contacts page map (_layouts/content-map.html). Run in WSL:
+#   python3 /mnt/d/webroot/_tools/osm-map/osm_map.py /mnt/d/webroot/grossoantonio.it/github.io/_map/map.yaml
+# Paths are relative to this file. Full reference: D:\webroot\_tools\osm-map\README.md
+# This folder starts with "_", so Jekyll doesn't publish it.
+
+# Grosso Antonio, Via del Salice 6/8, Castelfranco di Sotto
+pin:
+  lat: 43.709698
+  lon: 10.757296
+
+scss_variables: ../_sass/1-tools/_bootstrap-overrides.scss
+
+# Light greys like the old Google map; pin in the site's green.
+colors:
+  land: "#f7f7f7"
+  urban: "#dddddd"
+  water: "#cccccc"
+  rail: "#bbbbbb"
+  road_minor: "#ffffff"
+  road_major: "#ffffff"
+  pin: "$primary"
+  pin_dot: "#ffffff"
+  pin_outline: "#ffffff"
+
+pin_size: 44
+
+widths:
+  road_major: 3.5
+  road_minor: 1.5
+  rail: 1
+  river: 4
+  canal: 2
+  stream: 1
+
+simplify: 0.5
+
+labels:
+  # Open Sans, the site's font (loaded from Google Fonts, so a copy is kept here)
+  font: OpenSans-VariableFont_wdth_wght.ttf
+  reserve_bottom: 24
+  straightness: 5
+  spread: 200
+  place:
+    size: 16
+    uppercase: false
+    letter_spacing: 0
+    max: 12
+    color: "#333333"
+    halo: "#f7f7f7"
+  street:
+    size: 12
+    max: 8
+    color: "#555555"
+    halo: "#ffffff"
+  water:
+    size: 12
+    color: "#555555"
+    halo: "#f7f7f7"
+
+# The old map box stays (#map.full-screen-map, _sass/2-basics/_sections.scss): a full-width banner, 300 px tall
+# below lg (275 to 946 px wide), 500 px from lg (757 to 1264, beside the 220 px sidebar), 600 px from 1500 px.
+# The map fills it at 1:1, cropped at the sides (object-fit: cover); one output per height, label_width = the
+# narrowest box. 0.075 px/m like the old map (Google Maps zoom 13).
+outputs:
+  - file: ../assets/img/map/contacts-map-ul.svg
+    width: 1920
+    height: 600
+    span_m: 25600
+    label_width: 1260
+  - file: ../assets/img/map/contacts-map-lg.svg
+    width: 1280
+    height: 500
+    span_m: 17067
+    label_width: 750
+  - file: ../assets/img/map/contacts-map-phone.svg
+    width: 1000
+    height: 300
+    span_m: 13333
+    label_width: 280
