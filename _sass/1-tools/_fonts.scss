@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+// Open Sans, served locally (no Google Fonts request): Latin subset of the variable font, weights 300-600
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-latin-300-600.woff2") format("woff2");
+  font-weight: 300 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 @font-face {
   font-family: "icons-grosso";
   src: url("../fonts/icons-grosso.eot");
